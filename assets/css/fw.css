@@ -15,6 +15,13 @@ a:hover {
   text-decoration: underline;
 }
 
+header {
+  background-color: #49a9c9;
+  color: #ffffff;
+  margin-bottom: 2em;
+  padding: 1em 0 1em 0;
+}
+
 #footer {
   background-color: #1181a4;
   color: #ffffff;

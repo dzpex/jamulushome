@@ -3,12 +3,8 @@
   color: #ffffff;
 }
 
-header {
-  background-color: #49a9c9;
-  color: #ffffff;
-  margin-bottom: 2em;
+.mainsite header {
   text-align: center;
-  padding: 1em 0 1em 0;
 }
 
 #jamulusicon {
