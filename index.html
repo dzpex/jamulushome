@@ -8,15 +8,28 @@
   <title>Jamulus Software ‒ Play music online. With friends. For free.</title>
   {% include headtags.html %}
   <link rel="stylesheet" href="assets/css/home.css">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "SoftwareApplication",
+      "name": "Jamulus",
+      "applicationCategory": "Music",
+      "operatingSystem": "Windows, macOS, Linux",
+      "slogan":"Play music online. With friends. For free.",
+      "discussionUrl": "https://sourceforge.net/p/llcon/discussion/",
+      "license": "GPL",
+      "creator": "Volker Fischer and contributors"
+    }
+  </script>
   <meta name="description" content="Jamulus is an open source software which enables musicians to perform real-time jam sessions over the internet.">
 </head>
 
-<body itemscope itemtype="http://schema.org/SoftwareApplication" class="mainsite">
+<body class="mainsite">
   <header class="fx-row fx-row-center-xs">
     <div class="fx-col-100-xs">
       <img itemprop="logo" alt="Jamulus Icon" src="assets/img/jamulus-icon-2020.svg" id="jamulusicon" />
-      <h1 itemprop="name">Jamulus</h1>
-      <span itemprop="slogan">Play <span itemprop="applicationCategory">music</span> online. With friends. For free.</span>
+      <h1>{% tf index/appname.md %}</h1>
+      <span>Play music online. With friends. For free.</span>
     </div>
     <div class="fx-col-100-xs" id="actionbutton">
       <div class="fx-row">
@@ -29,13 +42,14 @@
       </div>
     </div>
   </header>
+  {% include langselect.html %}
+
   <main>
     <div class="fx-row fx-row-center-xs" id="firstrow">
       <div class="fx-col-100-xs fx-col-50-l">
         <div itemprop="abstract">
           <h2>What is Jamulus?</h2>
-          Jamulus is for playing, rehearsing, or just jamming with your friends, your band or just anyone you find online. Use your <span itemprop="operatingSystem">Windows</span>, <span itemprop="operatingSystem">macOS</span> or <span
-            itemprop="operatingSystem">Linux</span> machine to connect to Jamulus servers worldwide, for free over a normal broadband connection. Or
+          Jamulus is for playing, rehearsing, or just jamming with your friends, your band or just anyone you find online. Use your Windows, macOS or Linux machine to connect to Jamulus servers worldwide, for free over a normal broadband connection. Or
           host your own private server. Jamulus is designed for high quality, low-latency sound, making it easy to play together remotely and in time. Have a look at <a href="https://github.com/corrados/jamulus/wiki/Demos" target="_blank"
             rel="noreferrer">how people
             do it</a>!
@@ -55,7 +69,7 @@
         <p>
           Have a look at the <a href="https://github.com/corrados/jamulus/wiki" target="_blank" rel="noreferrer">Jamulus Wiki on GitHub</a>. Especially consider the <a href="https://github.com/corrados/jamulus/wiki/Client-Troubleshooting"
             target="_blank" rel="noreferrer">troubleshooting section</a>!
-          You can also ask on the <a href="https://sourceforge.net/p/llcon/discussion/" itemprop="discussionUrl" target="_blank" rel="noreferrer">Jamulus SourceForge Forums</a>.
+          You can also ask on the <a href="https://sourceforge.net/p/llcon/discussion/" target="_blank" rel="noreferrer">Jamulus SourceForge Forums</a>.
         </p>
       </div>
       <div class="fx-col-100-xs fx-col-50-m fx-col-25-l">
@@ -63,8 +77,8 @@
         <p>
           Ideas? Found a bug? Want to contribute? Since Jamulus is open source you can help us! Find the project on <a href="https://sourceforge.net/projects/llcon/" target="_blank" rel="noreferrer">SourceForge</a> and the <a
             href="https://github.com/corrados/jamulus" target="_blank" rel="noreferrer">source code on GitHub</a>!
-          Jamulus is licensed under the (<a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank" rel="noreferrer"><span itemprop="license">GPL,
-              GNU General Public License</span></a>).
+          Jamulus is licensed under the (<a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank" rel="noreferrer">GPL,
+              GNU General Public License</a>).
         </p>
       </div>
       <div class="fx-col-100-xs fx-txt-center">

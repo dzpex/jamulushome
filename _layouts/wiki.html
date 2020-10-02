@@ -12,22 +12,7 @@
   <header class="fx-row fx-row-center-xs fx-text-center">
     <div class="fx-col-100-xs fx-text-center fx-col-center-xs"><a href="/"><img itemprop="logo" alt="Jamulus Icon" src="assets/img/jamulus-icon-2020.svg" /></a></div>
   </header>
-  <div id="langselect" class="fx-row fx-row-center-xs">
-    <ul class="fx-col-100-xs fx-col-50-l">
-      {% for lng in site.languages %}
-        {% if lng == site.lang %}
-          <li class="selected">{{ lng }}</li>
-        {% else %}
-          {% if lng == site.default_lang %}
-            {% capture langlink %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-          {% else %}
-            {% capture langlink %}{{ site.baseurl_root }}/{{ lng }}{{ page.url }}{% endcapture %}
-          {% endif %}
-          <li><a href="{{ langlink }}">{{ lng }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
+  {% include langselect.html %}
   <main class="fx-row fx-row-center-xs">
     <div class="fx-col-100-xs fx-col-50-l">{{ content }}</div>
   </main>
