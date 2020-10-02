@@ -22,6 +22,25 @@ header {
   padding: 1em 0 1em 0;
 }
 
+#langselect {
+  color: #1181a4;
+  padding: 0 2em 0 2em;
+}
+
+#langselect ul {
+  margin-top: 0;
+}
+
+#langselect ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#langselect .selected {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #footer {
   background-color: #1181a4;
   color: #ffffff;
