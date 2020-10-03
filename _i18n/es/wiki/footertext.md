@@ -1,4 +1,4 @@
-**[Descargar Jamulus](https://sourceforge.net/projects/llcon/files/)**
+**[Descargar Jamulus](https://sourceforge.net/projects/llcon/files/){:.button}**
 
 Para Windows, Macintosh y Linux
 
