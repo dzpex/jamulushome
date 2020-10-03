@@ -15,7 +15,7 @@
       "name": "Jamulus",
       "applicationCategory": "Music",
       "operatingSystem": "Windows, macOS, Linux",
-      "slogan":"Play music online. With friends. For free.",
+      "slogan": "Play music online. With friends. For free.",
       "discussionUrl": "https://sourceforge.net/p/llcon/discussion/",
       "license": "GPL",
       "creator": "Volker Fischer and contributors"
@@ -34,7 +34,7 @@
     <div class="fx-col-100-xs" id="actionbutton">
       <div class="fx-row">
         <div class="fx-col-100-xs">
-          <a href="wiki/gettingstarted.html" target="_blank" id="get_started_btn_top" itemprop="url" rel="noreferrer">{% tf index/getstartednow.html %}</a>
+          <a href="wiki/Getting-Started" target="_blank" id="get_started_btn_top" itemprop="url" rel="noreferrer">{% tf index/getstartednow.html %}</a>
         </div>
         <div class="fx-col-100-xs" id="dl_frm_sf_container">
           {% tf index/downloadnow.html %}
@@ -42,34 +42,40 @@
       </div>
     </div>
   </header>
-  {% include langselect.html %}
-  <main>
-    <div class="fx-row fx-row-center-xs" id="firstrow">
+  <div>
+    <div class="fx-row fx-row-center-xs">
       <div class="fx-col-100-xs fx-col-50-l">
-        <div itemprop="abstract">
-          {% tf index/abstract.html %}
+        {% include langselect.html %}
+      </div>
+    </div>
+    <main>
+      <div class="fx-row fx-row-center-xs" id="firstrow">
+        <div class="fx-col-100-xs fx-col-50-l">
+          <div itemprop="abstract">
+            {% tf index/abstract.html %}
+          </div>
         </div>
       </div>
-    </div>
-    <div class="fx-row fx-row-center-xs" id="bannercontainer">
-      <div class="fx-col-100-xs fx-col-50-l">
-        <a href="wiki/gettingstarted.html" target="_blank" rel="noreferrer">
-          <img alt="Jamulus Banner. Links to getting started page" src="assets/img/jamulusbannersmall.jpg" id="jamulusbanner" loading="lazy" />
-        </a>
+      <div class="fx-row fx-row-center-xs" id="bannercontainer">
+        <div class="fx-col-100-xs fx-col-50-l">
+          <a href="wiki/gettingstarted.html" target="_blank" rel="noreferrer">
+            <img alt="Jamulus Banner. Links to getting started page" src="assets/img/jamulusbannersmall.jpg" id="jamulusbanner" loading="lazy" />
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="fx-row fx-row-center-xs">
-      <div class="fx-col-100-xs fx-col-50-m fx-col-25-l">
-        {% tf index/help.html %}
+      <div class="fx-row fx-row-center-xs">
+        <div class="fx-col-100-xs fx-col-50-m fx-col-25-l">
+          {% tf index/help.html %}
+        </div>
+        <div class="fx-col-100-xs fx-col-50-m fx-col-25-l">
+          {% tf index/opensource.html %}
+        </div>
+        <div class="fx-col-100-xs fx-txt-center">
+          <a href="wiki/Getting-Started" id="get_started_btn_bottom" itemprop="url" rel="noreferrer">{% tf index/getstartednow.html %}</a>
+        </div>
       </div>
-      <div class="fx-col-100-xs fx-col-50-m fx-col-25-l">
-        {% tf index/opensource.html %}
-      </div>
-      <div class="fx-col-100-xs fx-txt-center">
-        <a href="wiki/gettingstarted.html" id="get_started_btn_bottom" itemprop="url" rel="noreferrer">{% tf index/getstartednow.html %}</a>
-      </div>
-    </div>
-  </main>
+    </main>
+  </div>
   {% include footer.html %}
 </body>
 

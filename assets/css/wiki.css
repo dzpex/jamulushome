@@ -9,3 +9,17 @@
 .wikisite #license {
   font-style: italic;
 }
+
+.wikisite code {
+  background-color: #d3d3d3;
+  border-radius: 2px;
+}
+
+.wikisite main>div {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.wikisite #wikinav ul li {
+  list-style-type: none;
+}
