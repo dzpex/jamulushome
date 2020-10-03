@@ -34,9 +34,11 @@
   .wikisite #wikinav {
     order: 2;
   }
+
   .wikisite #maincontainer {
     order: 1;
   }
+
   .wikisite #wikinav nav ul li {
     display: block;
   }
@@ -46,7 +48,11 @@
   margin-top: 0;
 }
 
+.wikisite #license {
+  margin-top: 2.2em;
+}
+
 .wikisite #ftext {
-  margin-top: 3em;
+  margin-top: 1em;
   border-top: solid #1181a4;
 }
