@@ -5,3 +5,7 @@
 .wikisite .title {
   font-size: 2em;
 }
+
+.wikisite #license {
+  font-style: italic;
+}
