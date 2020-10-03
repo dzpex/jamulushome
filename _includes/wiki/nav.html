@@ -1,5 +1,9 @@
 <nav id="wikinav" class="fx-col-100-xs fx-col-25-l">
+  {% include langselect.html %}
   <ul>
     <li><a href="/">Home</a></li>
   </ul>
+  <div>
+    {% tf wiki/navtext.md %}
+  </div>
 </nav>

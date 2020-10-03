@@ -23,3 +23,7 @@
 .wikisite #wikinav ul li {
   list-style-type: none;
 }
+
+.wikisite h1 {
+  margin-top: 0;
+}
