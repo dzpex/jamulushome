@@ -25,6 +25,29 @@
   margin-bottom: 3px;
 }
 
+.wikisite #wikinav nav ul li {
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+@media (min-width:1200px) {
+  .wikisite #wikinav {
+    order: 2;
+  }
+  .wikisite #maincontainer {
+    order: 1;
+  }
+  .wikisite #wikinav nav ul li {
+    display: block;
+  }
+}
+
 .wikisite h1 {
   margin-top: 0;
+}
+
+.wikisite #ftext {
+  margin-top: 3em;
+  padding: 0.3em;
+  border: solid #1181a4;
 }
