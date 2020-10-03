@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Getting Started
+title: "Getting Started"
 ---
 
 {% tf wiki/gettingstarted/gettingstarted.md %}

@@ -5,12 +5,12 @@
 <head>
   <title>{{ page.title }}</title>
   {% include headtags.html %}
-  <link rel="stylesheet" href="assets/css/wiki.css">
+  <link rel="stylesheet" href="{{ '/assets/css/wiki.css' | prepend: site.baseurl_root }}">
 </head>
 
 <body class="wikisite">
   <header class="fx-row fx-row-center-xs fx-text-center">
-    <div class="fx-col-100-xs fx-text-center fx-col-center-xs"><a href="/"><img itemprop="logo" alt="Jamulus Icon" src="assets/img/jamulus-icon-2020.svg" /></a></div>
+    <div class="fx-col-100-xs fx-text-center fx-col-center-xs"><a href="/"><img itemprop="logo" alt="Jamulus Icon" src="{{ '/assets/img/jamulus-icon-2020.svg' | prepend: site.baseurl_root }}" /></a></div>
   </header>
   {% include langselect.html %}
   <main class="fx-row fx-row-center-xs">
