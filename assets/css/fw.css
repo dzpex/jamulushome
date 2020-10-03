@@ -22,7 +22,7 @@ header {
   color: #1181a4;
 }
 
-#langselect ul, #wikinav ul {
+#langselect ul, #wikinav nav ul {
   padding: 0;
 }
 

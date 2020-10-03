@@ -20,8 +20,9 @@
   margin-top: 0;
 }
 
-.wikisite #wikinav ul li {
+.wikisite #wikinav nav ul li {
   list-style-type: none;
+  margin-bottom: 3px;
 }
 
 .wikisite h1 {
