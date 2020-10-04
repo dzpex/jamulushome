@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html class="ie9"> <![endif]-->
-<html>
+<html lang="{{ site.active_lang }}">
 
 <head>
   <title>{{ page.title }}</title>
@@ -16,9 +16,16 @@
     {% include wiki/nav.html %}
     <div id="maincontainer" class="fx-col-100-xs fx-col-50-l">
       <main>{{ content }}</main>
-      <div id="license">{% tf wiki/license.html %}</div>
+      <div id="license">{{ site.data.wiki.wikitrans.license }}</div>
       <div id="ftext">
-        {% tf wiki/footertext.md %}
+        {% capture footertext %}
+          {% if site.active_lang %}
+            {% include wiki/{{ site.active_lang }}/footertext.md %}
+          {% else %}
+            {% include wiki/{{ site.default_lang }}/footertext.md %}
+          {% endif %}
+        {% endcapture %}
+        {{ footertext | markdownify }}
       </div>
     </div>
   </div>

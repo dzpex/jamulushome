@@ -2,7 +2,13 @@
   {% include langselect.html %}
   <nav>
     <ul>
-      {% tf wiki/navlinks.html %}
+      {% for ste in site.data.wiki.navigation %}
+      <li>
+        <a href="{{ ste.link }}" {% if page.url == ste.link %}class="selected" {% endif %}>
+          {{ ste.name }}
+        </a>
+      </li>
+      {% endfor %}
     </ul>
   </nav>
 </aside>

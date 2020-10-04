@@ -1,11 +1,11 @@
 <div id="langselect">
   <ul>
     {% for lng in site.languages %}
-      {% if lng == site.lang %}
+      {% if lng == site.active_lang %}
         <li class="selected">{{ lng }}</li>
       {% else %}
         {% if lng == site.default_lang %}
-          {% capture langlink %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+          {% capture langlink %} {{ site.baseurl_root }}{{ page.url }}{% endcapture %}
         {% else %}
           {% capture langlink %}{{ site.baseurl_root }}/{{ lng }}{{ page.url }}{% endcapture %}
         {% endif %}

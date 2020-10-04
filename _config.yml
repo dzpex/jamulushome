@@ -1,4 +1,6 @@
 plugins:
-  - jekyll-multiple-languages-plugin
-languages: [ "en", "es", "de" ]
-exclude_from_localizations: ["javascript", "images", "css"]
+  - jekyll-polyglot
+languages: ["en", "es", "de"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "README.md"]
+parallel_localization: true
