@@ -4,7 +4,6 @@ title: "Jamulus Wiki Start"
 lang: "de"
 permalink: "/wiki/"
 ---
-
 # Jamulus Wiki
 Willkommen im Jamulus Wiki!
 
@@ -12,7 +11,7 @@ Das ist die offizielle Dokumentation von Jamulus.
 
 ## Schnellstart
 
-Um mit Jamulus zu beginnen - [Starte hier](Getting-Started)
+[Starte hier](Getting-Started){:.button} um mit Jamulus zu beginnen.
 
 ## Zu diesem Wiki beitragen
 

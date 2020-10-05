@@ -4,7 +4,6 @@ title: "Jamulus Wiki home"
 lang: "en"
 permalink: "/wiki/"
 ---
-
 # Jamulus Wiki
 Welcome to the Jamulus wiki!
 
@@ -12,7 +11,7 @@ This is the official documentation of the Jamulus Software.
 
 ## Quick start
 
-To get playing with Jamulus right away - [START HERE](Getting-Started)
+[START HERE](Getting-Started){:.button} to get playing with Jamulus right away.
 
 ## Contribute to this wiki
 

@@ -1,4 +1,25 @@
-- name: Jamulus Home
-  link: /
-- name: Wiki Home
-  link: /wiki/
+nav:
+- title:                 Jamulus Links
+  subfolderitems:
+    - page:              Jamulus Homepage
+      url:               /
+    - page:              Wiki Home
+      url:               /wiki
+- title:                 Client
+  subfolderitems:
+    - page:              Getting Started
+      url:               /wiki/Getting-Started
+      subsubfolderitems:
+        - page:          Installation Windows
+          url:           /wiki/Installation-for-Windows
+        - page:          Installation Mac
+          url:           /wiki/Installation-for-Macintosh
+        - page:          Installation Linux
+          url:           /wiki/Installation-for-Linux
+- title:                 Server
+  url:                   /wiki/invalid
+  subfolderitems:
+    - page:              Sever types
+      url:               /wiki/invalid
+    - page:              Run a private server
+      url:               /wiki/invalid

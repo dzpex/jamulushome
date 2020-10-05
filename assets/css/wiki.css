@@ -2,6 +2,10 @@
   width: 40px;
 }
 
+.wikisite header {
+  margin-bottom: 0;
+}
+
 .wikisite .title {
   font-size: 2em;
 }
@@ -20,9 +24,19 @@
   margin-top: 0;
 }
 
-.wikisite #wikinav nav ul li {
-  list-style-type: none;
-  margin-bottom: 3px;
+.wikisite #wikinav nav h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.wikisite #wikinav a .selected {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #2b7288;
+}
+
+.wikisite #wikinav nav ul {
+  padding: 0;
+  margin: 0.3em 0 0 0;
 }
 
 .wikisite #wikinav nav ul li {
@@ -31,6 +45,10 @@
 }
 
 @media (min-width:1200px) {
+  .wikisite header {
+    margin-bottom: 2em;
+  }
+
   .wikisite #wikinav {
     order: 2;
   }
@@ -41,6 +59,7 @@
 
   .wikisite #wikinav nav ul li {
     display: block;
+    margin-left: 0.5em;
   }
 }
 
