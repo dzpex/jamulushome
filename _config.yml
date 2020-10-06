@@ -2,4 +2,3 @@ plugins:
   - jekyll-multiple-languages-plugin
 languages: [ "en", "es", "de" ]
 exclude_from_localizations: ["javascript", "images", "css"]
-destination: /docs/
