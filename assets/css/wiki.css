@@ -39,12 +39,38 @@
   margin: 0;
 }
 
-.wikisite #wikinav nav ul li {
-  display: inline-block;
-  margin-right: 0.2em;
+.wikisite #wikinav nav ul li>a {
+  margin-left: 0.5em;
+}
+
+.wikisite #wikinav nav>ul>li>ul>li>ul>li>a {
+  margin-left: 0.9em;
+}
+
+.wikisite nav {
+  background-color: #EAF8FD;
+  color: #ffffff;
+  margin: 10px auto 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.wikisite #navbtn {
+  cursor: pointer;
+}
+
+.wikisite #wnv {
+  display: none;
 }
 
 @media (min-width:1200px) {
+  .wikisite #wnv {
+    display: block !important;
+  }
+
+  .wikisite .hide-on-dt {
+    display: none;
+  }
+
   .wikisite header {
     margin-bottom: 2em;
   }
@@ -54,12 +80,8 @@
   }
 
   .wikisite nav {
-    background-color: #EAF8FD;
-    color: #ffffff;
     position: sticky;
     top: 2px;
-    margin: 10px auto 0 auto;
-    padding: 10px 10px 10px 10px;
   }
 
   .wikisite #maincontainer {
@@ -68,14 +90,6 @@
 
   .wikisite #wikinav nav ul li {
     display: block;
-  }
-
-  .wikisite #wikinav nav ul li>a {
-    margin-left: 0.5em;
-  }
-
-  .wikisite #wikinav nav>ul>li>ul>li>ul>li>a {
-    margin-left: 0.9em;
   }
 }
 

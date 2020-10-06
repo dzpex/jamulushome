@@ -1,6 +1,7 @@
 <aside id="wikinav" class="fx-col-100-xs fx-col-25-l">
   {% include langselect.html %}
-  <nav>
+  <div class="hide-on-dt" id="navbtn" onclick="showNav()">Navigation</div>
+  <nav id="wnv">
     <ul>
       {% if site.data.wiki.navigation.nav[0] %}
       {% for item in site.data.wiki.navigation.nav %}
