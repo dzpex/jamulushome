@@ -36,7 +36,7 @@
 
 .wikisite #wikinav nav ul {
   padding: 0;
-  margin: 0.3em 0 0 0;
+  margin: 0;
 }
 
 .wikisite #wikinav nav ul li {
@@ -53,13 +53,29 @@
     order: 2;
   }
 
+  .wikisite nav {
+    background-color: #EAF8FD;
+    color: #ffffff;
+    position: sticky;
+    top: 2px;
+    margin: 10px auto 0 auto;
+    padding: 10px 10px 10px 10px;
+  }
+
   .wikisite #maincontainer {
     order: 1;
   }
 
   .wikisite #wikinav nav ul li {
     display: block;
+  }
+
+  .wikisite #wikinav nav ul li>a {
     margin-left: 0.5em;
+  }
+
+  .wikisite #wikinav nav>ul>li>ul>li>ul>li>a {
+    margin-left: 0.9em;
   }
 }
 
