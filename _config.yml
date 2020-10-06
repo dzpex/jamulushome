@@ -5,3 +5,7 @@ languages: ["en", "es", "de"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: true
+jekyll-minifier:
+  remove_intertag_spaces: true
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
