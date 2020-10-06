@@ -8,4 +8,5 @@ gem "jekyll"
 group :jekyll_plugins do
    gem "jekyll-polyglot"
 end
+gem "jekyll-minifier"
 # gem "rails"
