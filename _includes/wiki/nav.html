@@ -6,7 +6,7 @@
       {% if site.data.wiki.navigation.nav[0] %}
       {% for item in site.data.wiki.navigation.nav %}
       {% if item.url %}
-        <li><h3><a href="{{ item.url }}">{{ item.title }}</a></h3></li>
+        <li><h3><a href="{{ item.url }}" class="{% if subentry.url == page.url %}selected{% endif %}">{{ item.title }}</a></h3></li>
       {% else %}
         <li><h3>{{ item.title }}</h3></li>
       {% endif %}
