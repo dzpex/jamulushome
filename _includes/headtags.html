@@ -24,7 +24,6 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="author" href="{{ 'humans.txt' | relative_url }}" />
 {% for lng in site.languages %}
-  {% else %}
     {% if lng == site.default_lang %}
       {% capture langlink %} /{{ site.baseurl }}{{ page.url }}{% endcapture %}
     {% else %}
