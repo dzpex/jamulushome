@@ -1,32 +1,47 @@
 <aside id="wikinav" class="fx-col-100-xs fx-col-25-l">
   {% include langselect.html %}
-  <div class="hide-on-dt" id="navbtn" onclick="showNav()">Navigation</div>
+  <div class="hide-on-dt" id="navbtn" onclick="showNav()">
+    <svg role="img" aria-labelledby="ntitle">
+      <title id="ntitle">Navigation</title>
+      <g>
+        <rect style="fill:#000000" id="r1" width="16" height="3" x="0" y="0" />
+        <rect style="fill:#000000" id="r2" width="16" height="3" x="0" y="8" />
+        <rect style="fill:#000000" id="r3" width="16" height="3" x="0" y="16" />
+      </g>
+    </svg>
+  </div>
   <nav id="wnv">
     <ul>
       {% if site.data.wiki.navigation.nav[0] %}
       {% for item in site.data.wiki.navigation.nav %}
       {% if item.url %}
-        <li><h3><a href="{{ item.url }}" class="{% if subentry.url == page.url %}selected{% endif %}">{{ item.title }}</a></h3></li>
+      <li>
+        <h3><a href="{{ item.url }}" class="{% if subentry.url == page.url %}selected{% endif %}">{{ item.title }}</a></h3>
+      </li>
       {% else %}
-        <li><h3>{{ item.title }}</h3></li>
+      <li>
+        <h3>{{ item.title }}</h3>
+      </li>
       {% endif %}
       {% if item.subfolderitems[0] %}
-        <li><ul>
+      <li>
+        <ul>
           {% for entry in item.subfolderitems %}
-              <li><a href="{{ entry.url }}" class="{% if entry.url == page.url %}selected{% endif %}">{{ entry.page }}</a>
-                {% if entry.subsubfolderitems[0] %}
-                  <ul>
-                  {% for subentry in entry.subsubfolderitems %}
-                      <li><a href="{{ subentry.url }}" class="{% if subentry.url == page.url %}selected{% endif %}">{{ subentry.page }}</a></li>
-                  {% endfor %}
-                  </ul>
-                {% endif %}
-              </li>
+          <li><a href="{{ entry.url }}" class="{% if entry.url == page.url %}selected{% endif %}">{{ entry.page }}</a>
+            {% if entry.subsubfolderitems[0] %}
+            <ul>
+              {% for subentry in entry.subsubfolderitems %}
+              <li><a href="{{ subentry.url }}" class="{% if subentry.url == page.url %}selected{% endif %}">{{ subentry.page }}</a></li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
           {% endfor %}
-        </ul></li>
+        </ul>
+      </li>
       {% endif %}
-    {% endfor %}
-    {% endif %}
+      {% endfor %}
+      {% endif %}
     </ul>
   </nav>
 </aside>
