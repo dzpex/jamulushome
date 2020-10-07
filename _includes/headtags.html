@@ -23,4 +23,12 @@
 <meta name="msapplication-TileImage" content="{{ 'ms-icon-144x144.png' | relative_url }}">
 <meta name="theme-color" content="#ffffff">
 <link rel="author" href="{{ 'humans.txt' | relative_url }}" />
-{% I18n_Headers %}
+{% for lng in site.languages %}
+  {% else %}
+    {% if lng == site.default_lang %}
+      {% capture langlink %} /{{ site.baseurl }}{{ page.url }}{% endcapture %}
+    {% else %}
+      {% capture langlink %}/{{ site.baseurl }}/{{ lng }}{{ page.url }}{% endcapture %}
+    {% endif %}
+    <link rel="alternate" hreflang="{{ lng }}" href="{{ langlink }}" />
+{% endfor %}
