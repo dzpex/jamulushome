@@ -1,3 +1,11 @@
-# GitHub Pages branch
+# Jamulus Website
 
-This branch just serves the plain html for the wiki and website. Nothing to develop here. Please head over.
+This is the home of the Jamulus Website and Wiki.
+
+## Tech
+
+Built with Jekyll
+
+## Contribute
+
+Want to contribute to the Jamulus Wiki/Website? Please open a PR!
