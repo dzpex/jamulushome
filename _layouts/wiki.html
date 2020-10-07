@@ -10,8 +10,20 @@
 </head>
 
 <body class="wikisite">
-  <header class="fx-row fx-row-center-xs fx-text-center">
-    <div class="fx-col-100-xs fx-text-center fx-col-center-xs"><a href="/{{ site.baseurl }}/{% if site.active_lang != site.default_lang %}{{ site.active_lang }}/{% endif %}wiki"><img alt="Jamulus Icon" src="{{ 'assets/img/jamulus-icon-2020.svg'| relative_url }}" /></a></div>
+  <header class="fx-row fx-row-between-xs fx-text-center">
+    <div class="fx-col fx-text-center"><a href="/{{ site.baseurl }}/{% if site.active_lang != site.default_lang %}{{ site.active_lang }}/{% endif %}wiki">
+      <img alt="Jamulus Icon" src="{{ 'assets/img/jamulus-icon-2020.svg'| relative_url }}" /></a>
+      <div class="fx-col fx-text-center hide-on-dt" id="navbtn" onclick="showNav()">
+        <svg role="img" aria-labelledby="ntitle">
+          <title id="ntitle">Navigation</title>
+          <g>
+            <rect style="fill:#000000" id="r1" width="100%" height="3" x="0" y="0" />
+            <rect style="fill:#000000" id="r2" width="100%" height="3" x="0" y="8" />
+            <rect style="fill:#000000" id="r3" width="100%" height="3" x="0" y="16" />
+          </g>
+        </svg>
+      </div>
+    </div>
   </header>
   <div class="fx-row fx-row-center-xs">
     <noscript><strong>Your browser has JavaScript disabled. That's totally fine. This site has been designed to provide basic functionality without JS. Enabling JavaScript may give you additional functionality on this site.</strong></noscript>
@@ -21,9 +33,9 @@
       <div id="license">{% include wiki/{{ site.active_lang }}/wikilicense.html %}</div>
       <div id="ftext">
         {% capture footertext %}
-          {% if site.active_lang %}
-            {% include wiki/{{ site.active_lang }}/footertext.md %}
-          {% endif %}
+        {% if site.active_lang %}
+        {% include wiki/{{ site.active_lang }}/footertext.md %}
+        {% endif %}
         {% endcapture %}
         {{ footertext | markdownify }}
       </div>
