@@ -1,6 +1,7 @@
 plugins:
   - jekyll-polyglot
   - jekyll-minifier
+  - jekyll-github-metadata
 languages: ["en", "es", "de"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
