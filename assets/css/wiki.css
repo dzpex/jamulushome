@@ -54,9 +54,10 @@
   padding: 10px 10px 10px 10px;
 }
 
-.wikisite #navbtn {
+.wikisite #navbtn svg {
   cursor: pointer;
   width: 20px;
+  height: 20px;
   margin-top: 1em;
 }
 
