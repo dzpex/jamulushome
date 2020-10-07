@@ -1,0 +1,20 @@
+I"O<h1 id="jamulus-wiki">Jamulus Wiki</h1>
+<p>Willkommen im Jamulus Wiki!</p>
+
+<p>Das ist die offizielle Dokumentation von Jamulus.</p>
+
+<h2 id="schnellstart">Schnellstart</h2>
+
+<p><a href="Getting-Started" class="button">Starte hier</a> um mit Jamulus zu beginnen.</p>
+
+<h2 id="zu-diesem-wiki-beitragen">Zu diesem Wiki beitragen</h2>
+
+<p>Du kannst in diesem Wiki beitragen.</p>
+
+<p>Bitte eröffne einen pull request auf GitHub mit dem Titel:</p>
+
+<p><code class="language-plaintext highlighter-rouge">W: [Sprachcode (z.B. de)] {kurze Beschreibung deiner Änderungen}</code> z.B.<br />
+<code class="language-plaintext highlighter-rouge">W: [de] Fix typo on getting-started page</code>.</p>
+
+<p>Der Quellcode dieses Wikis kann im <a href="https://github.com/corrados/jamulus/tree/gh-pages">Jamulus GitHub Repo branch gh-pages</a> gefunden werden.</p>
+:ET
