@@ -9,5 +9,4 @@ group :jekyll_plugins do
    gem "jekyll-polyglot"
 end
 gem "jekyll-minifier"
-gem "jekyll-github-metadata"
 # gem "rails"
