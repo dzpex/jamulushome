@@ -5,6 +5,7 @@ languages: ["en", "es", "de"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: true
+baseurl: https://gilgongo.github.io/jamulushome/
 jekyll-minifier:
   remove_intertag_spaces: true
   remove_spaces_inside_tags: true
