@@ -5,9 +5,9 @@
         <li class="selected">{{ lng }}</li>
       {% else %}
         {% if lng == site.default_lang %}
-          {% capture langlink %} {{ site.baseurl }}{{ page.url }}{% endcapture %}
+          {% capture langlink %} /{{ site.baseurl }}{{ page.url }}{% endcapture %}
         {% else %}
-          {% capture langlink %}{{ site.baseurl }}/{{ lng }}{{ page.url }}{% endcapture %}
+          {% capture langlink %}/{{ site.baseurl }}/{{ lng }}{{ page.url }}{% endcapture %}
         {% endif %}
         <li><a href="{{ langlink }}">{{ lng }}</a></li>
       {% endif %}
