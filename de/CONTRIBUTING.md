@@ -15,7 +15,7 @@ To translate a file, please duplicate it and change the lang: attribute to the l
 
 ### Adding a new language
 
-If you want to add a new language, you must follow the instructions on the polyglot site and add the folders/files. At least the footer, the main includes in the wiki (see \_includes/), the Wiki navigation (see the \_data/ folder) and the Homepage (see the index.html file in the root of this repo) must be translated. Have a look at the README.md files in these folders.
+If you want to add a new language, you must follow the instructions on the polyglot site and add the folders/files. At least the footer, the main includes in the wiki (see \_includes/), the Wiki navigation (see the \_data/ folder) and the Homepage (see the index.html file in the root of this repo) must be translated. Have a look at the README.md files in these folders. Also make sure to add your language to the _config.yml file (in the languages array.)
 
 ## Contribute to the design/site structure
 
