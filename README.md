@@ -8,4 +8,4 @@ Built with Jekyll
 
 ## Contribute and translation
 
-Do you want to contribute to the Jamulus Wiki/Website? Please see the [CONTRIBUTING.md file](Contributing.md)
+Do you want to contribute to the Jamulus Wiki/Website? Please see the [CONTRIBUTING.md file](CONTRIBUTING.md)

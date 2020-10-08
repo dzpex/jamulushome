@@ -1,5 +1,5 @@
 #_data folder
-Includes yekyll data.
+Includes jekyll data.
 
 currently used to translate the navigation in the wiki. See en/wiki/navigation.yml for structure.
 
