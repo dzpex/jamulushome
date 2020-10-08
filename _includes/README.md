@@ -1,4 +1,4 @@
-#_includes folder
+# _includes folder
 Holds fragments/files which are included in other sites.
 
 general/languagecode folder: includes translated fragments which are included in every site.
