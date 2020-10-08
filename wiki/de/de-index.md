@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Jamulus Wiki Start"
+title: "Start - Jamulus Wiki"
 lang: "de"
 permalink: "/wiki/"
 ---

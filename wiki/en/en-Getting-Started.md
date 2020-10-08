@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Getting Started"
+title: "Getting Started - Jamulus Wiki"
 lang: "en"
 permalink: "/wiki/Getting-Started"
 ---

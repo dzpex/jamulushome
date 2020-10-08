@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Cómo Empezar"
+title: "Cómo Empezar - Jamulus Wiki"
 lang: "es"
 permalink: "/wiki/Getting-Started"
 ---
