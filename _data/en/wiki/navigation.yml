@@ -2,24 +2,24 @@ nav:
 - title:                 Jamulus Links
   subfolderitems:
     - page:              Jamulus Homepage
-      url:               /jamulushome/
+      url:               /
     - page:              Wiki Home
-      url:               /jamulushome/wiki
+      url:               /wiki
 - title:                 Client
   subfolderitems:
     - page:              Getting Started
-      url:               /jamulushome/wiki/Getting-Started
+      url:               /wiki/Getting-Started
       subsubfolderitems:
         - page:          Installation Windows
-          url:           /jamulushome/wiki/Installation-for-Windows
+          url:           /wiki/Installation-for-Windows
         - page:          Installation Mac
-          url:           /jamulushome/wiki/Installation-for-Macintosh
+          url:           /wiki/Installation-for-Macintosh
         - page:          Installation Linux
-          url:           /jamulushome/wiki/Installation-for-Linux
+          url:           /wiki/Installation-for-Linux
 - title:                 Server
-  url:                   /jamulushome/wiki/invalid
+  url:                   /wiki/invalid
   subfolderitems:
     - page:              Sever types
-      url:               /jamulushome/wiki/invalid
+      url:               /wiki/invalid
     - page:              Run a private server
-      url:               /jamulushome/wiki/invalid
+      url:               /wiki/invalid
