@@ -25,5 +25,7 @@ The wiki can be translated in the wiki/ folder. Just open the folder of the lang
 
 The Navigation of the wiki can be found in the _data folder.
 
-The footer/... in the _includes folder. 
+The general translations for the whole site can e.g. be found in the _includes/general/YOURLANGUAGECODE folder. 
+
+If you want to add a new language, you must follow the instructions on the polyglot site and add the folders/files. At least the footer, the Wiki Navigation and the Homepage should be translated. 
 Please open a PR!
