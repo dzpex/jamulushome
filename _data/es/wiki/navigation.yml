@@ -2,9 +2,9 @@ nav:
 - title:                 Jamulus Links
   subfolderitems:
     - page:              Start
-      url:               /es/
+      url:               /
     - page:              Wiki Home
-      url:               /es/wiki
+      url:               /wiki
 - title:                 Client
   subfolderitems:
     - page:              Getting Started
