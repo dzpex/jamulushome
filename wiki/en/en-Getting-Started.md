@@ -4,18 +4,20 @@ title: "Getting Started - Jamulus Wiki"
 lang: "en"
 permalink: "/wiki/Getting-Started"
 ---
+
 # Getting Started with Jamulus
+
 ## You will need
-1. **A computer** running either **Windows 10**, **MacOS X** El Capitan (v10.11) or higher, or **Linux**.
 
-1. **A wired internet connection** (don't use Wi-Fi, it will cause sound problems). Most broadband connections will be fine ([full details here](Quality,-delay-and-network-bandwidth)). If you have 10Mbits down and 1Mbps up, you're unlikely to run into bandwidth-related issues.
+1.  **A computer** running either **Windows 10**, **MacOS X** El Capitan (v10.11) or higher, or **Linux**.
 
-1. **Wired headphones - not speakers** to prevent echo or feedback and (particularity if singing or playing acoustic instruments) to make sure you keep in time with others (see the [note on this](Getting-Started#having-trouble-cant-keep-in-time) for why).
+2.  **A wired internet connection** (don't use Wi-Fi, it will cause sound problems). Most broadband connections will be fine ([full details here](Quality,-delay-and-network-bandwidth)). If you have 10Mbits down and 1Mbps up, you're unlikely to run into bandwidth-related issues.
+
+3.  **Wired headphones - not speakers** to prevent echo or feedback and (particularity if singing or playing acoustic instruments) to make sure you keep in time with others (see the [note on this](Getting-Started#having-trouble-cant-keep-in-time) for why).
 
 ### Highly recommended: an audio interface!
 
 Unless you are a musician with a (USB) microphone, then to avoid latency you are strongly advised to use an audio interface: a box that you can plug your instrument(s) into rather than using your computer's built-in sound card. The interface will connect to your PC usually via USB. See [Hardware Setup](Hardware-Setup).
-
 
 ### Minimise interruptions!
 
@@ -28,9 +30,9 @@ Always connect to servers with the **lowest ping times** as shown in your server
 ## Ready? Install Jamulus!
 
 <div class="fx-row fx-row-start-xs">
-  <div class="fx-col-100-xs fx-col-33-m"><a href="Installation-for-Windows" class="button">For Windows users</a></div>
-  <div class="fx-col-100-xs fx-col-33-m"><a href="Installation-for-Macintosh" class="button">For macOS users</a></div>
-  <div class="fx-col-100-xs fx-col-33-m"><a href="Installation-for-Linux" class="button">For Linux users</a></div>
+<a href="Installation-for-Windows" class="button fx-col-100-xs fx-col-33-m">For Windows users</a>
+  <a href="Installation-for-Macintosh" class="button fx-col-100-xs fx-col-33-m">For macOS users</a>
+<a href="Installation-for-Linux" class="button fx-col-100-xs fx-col-33-m">For Linux users</a>
 </div>
 [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)
 
