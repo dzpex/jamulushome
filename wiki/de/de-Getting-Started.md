@@ -10,7 +10,7 @@ permalink: "/wiki/Getting-Started"
 
 1. **Eine kabelgebundene Internetverbindung** (LAN, kein WLAN. Sonst gibt es Tonprobleme). Wenn dein PC keinen LAN-Anschluss mehr hat, versuche es mit einem USB zu LAN Adapter. Bandbreitentechnisch funktioniert Jamulus fast überall: Die Bandbreite von normalen Breitbandverbindungen ist ausreichend ([vollständige Details hier](Quality,-delay-and-network-bandwidth)). Wenn du 10MBit/s Download und 1MBit/s Upload hast, wirst du höchstwahrscheinlich keine Probleme (zumindest mit der Bandbreite) haben.
 
-1. **Kabelgebundene Kopfhörer - keine Lautsprecher** um Echo/Rückkopplungen zu vermeiden. Die Zeitverzögerung von Bluetooth-Kopfhörern ist normalerweise zu hoch. Deshalb solltest du einen kabelgebundenen Kopfhörer nutzen. Besonders beim Singen oder Spielen akustischer Instrumente sind Kopfhörer auch eine gute Hilfe um sicherzustellen, dass du mit anderen im Takt bleibst (siehe [diesen Hinweis](Getting-Started#Schwierigkeiten?-Probleme?-Kannst-du-den-Rhythmus-nicht-einhalten?)).
+1. **Kabelgebundene Kopfhörer - keine Lautsprecher** um Echo/Rückkopplungen zu vermeiden. Die Zeitverzögerung von Bluetooth-Kopfhörern ist normalerweise zu hoch. Deshalb solltest du einen kabelgebundenen Kopfhörer nutzen. Besonders beim Singen oder Spielen akustischer Instrumente sind Kopfhörer auch eine gute Hilfe um sicherzustellen, dass du mit anderen im Takt bleibst (siehe [diesen Hinweis](Getting-Started#schwierigkeiten-probleme-kannst-du-den-rhythmus-nicht-einhalten)).
 
 ### Empfohlen: ein Audio-Interface!
 
