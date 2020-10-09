@@ -22,4 +22,4 @@ Please open a pull request with with the title
 `W: [language code (e.g. en)] {short description of your changes}` e.g.\
 `W: [en] Fix typo on getting-started page`.
 
- The source of this wiki can be found on the [Jamulus GitHub Repo branch gh-pages](https://github.com/corrados/jamulus/tree/gh-pages).
+ The source of this wiki can be found on the [Jamulus GitHub Repo branch wiki](https://github.com/corrados/jamulus/tree/wiki).

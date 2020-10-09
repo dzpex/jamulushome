@@ -17,9 +17,9 @@ Das ist die offizielle Dokumentation von Jamulus.
 
 Du kannst in diesem Wiki beitragen.
 
-Bitte eröffne einen pull request auf GitHub mit dem Titel:
+Bitte eröffne einen Pull Request auf GitHub mit dem Titel:
 
 `W: [Sprachcode (z.B. de)] {kurze Beschreibung deiner Änderungen}` z.B.\
 `W: [de] Fix typo on getting-started page`.
 
- Der Quellcode dieses Wikis kann im [Jamulus GitHub Repo branch gh-pages](https://github.com/corrados/jamulus/tree/gh-pages) gefunden werden.
+ Der Quellcode dieses Wikis kann im [Jamulus GitHub Repo branch wiki](https://github.com/corrados/jamulus/tree/wiki) gefunden werden.
