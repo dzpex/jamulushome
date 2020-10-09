@@ -28,9 +28,7 @@ Always connect to servers with the **lowest ping times** as shown in your server
 ## Ready? Install Jamulus!
 
 [For Windows users](Installation-for-Windows){:.button}
-
 [For Macintosh users](Installation-for-Macintosh){:.button}
-
 [For Linux users](Installation-for-Linux){:.button}
 
 [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)

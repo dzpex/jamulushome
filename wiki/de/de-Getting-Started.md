@@ -28,9 +28,7 @@ Auch der Ping (Zeit, die ein Signal von deinem PC zum Jamulus Server und zurück
 ## Bereit? Installiere Jamulus!
 
 [Für Windows](Installation-for-Windows){:.button}
-
 [Für macOS](Installation-for-Macintosh){:.button}
-
 [Für Linux](Installation-for-Linux){:.button}
 
 NEU! [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)
