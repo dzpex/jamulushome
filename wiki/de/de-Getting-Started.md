@@ -4,18 +4,20 @@ title: "Schnellstart - Jamulus Wiki"
 lang: "de"
 permalink: "/wiki/Getting-Started"
 ---
+
 # Erste Schritte mit Jamulus
+
 ## Du brauchst
-1. **Einen Computer** (Jamulus läuft auf **Windows 10**, **MacOS X** El Capitan (v10.11) oder neuer und **Linux**)
 
-1. **Eine kabelgebundene Internetverbindung** (LAN, kein WLAN. Sonst gibt es Tonprobleme). Wenn dein PC keinen LAN-Anschluss mehr hat, versuche es mit einem USB zu LAN Adapter. Bandbreitentechnisch funktioniert Jamulus fast überall: Die Bandbreite von normalen Breitbandverbindungen ist ausreichend ([vollständige Details hier](Quality,-delay-and-network-bandwidth)). Wenn du 10MBit/s Download und 1MBit/s Upload hast, wirst du höchstwahrscheinlich keine Probleme (zumindest mit der Bandbreite) haben.
+1.  **Einen Computer** (Jamulus läuft auf **Windows 10**, **MacOS X** El Capitan (v10.11) oder neuer und **Linux**)
 
-1. **Kabelgebundene Kopfhörer - keine Lautsprecher** um Echo/Rückkopplungen zu vermeiden. Die Zeitverzögerung von Bluetooth-Kopfhörern ist normalerweise zu hoch. Deshalb solltest du einen kabelgebundenen Kopfhörer nutzen. Besonders beim Singen oder Spielen akustischer Instrumente sind Kopfhörer auch eine gute Hilfe um sicherzustellen, dass du mit anderen im Takt bleibst (siehe [diesen Hinweis](Getting-Started#schwierigkeiten-probleme-kannst-du-den-rhythmus-nicht-einhalten)).
+2.  **Eine kabelgebundene Internetverbindung** (LAN, kein WLAN. Sonst gibt es Tonprobleme). Wenn dein PC keinen LAN-Anschluss mehr hat, versuche es mit einem USB zu LAN Adapter. Bandbreitentechnisch funktioniert Jamulus fast überall: Die Bandbreite von normalen Breitbandverbindungen ist ausreichend ([vollständige Details hier](Quality,-delay-and-network-bandwidth)). Wenn du 10MBit/s Download und 1MBit/s Upload hast, wirst du höchstwahrscheinlich keine Probleme (zumindest mit der Bandbreite) haben.
+
+3.  **Kabelgebundene Kopfhörer - keine Lautsprecher** um Echo/Rückkopplungen zu vermeiden. Die Zeitverzögerung von Bluetooth-Kopfhörern ist normalerweise zu hoch. Deshalb solltest du einen kabelgebundenen Kopfhörer nutzen. Besonders beim Singen oder Spielen akustischer Instrumente sind Kopfhörer auch eine gute Hilfe um sicherzustellen, dass du mit anderen im Takt bleibst (siehe [diesen Hinweis](Getting-Started#schwierigkeiten-probleme-kannst-du-den-rhythmus-nicht-einhalten)).
 
 ### Empfohlen: ein Audio-Interface!
 
 Obwohl du auch das eingebaute Mikrofon und damit die Soundkarte deines Computers nutzen kannst, ist die Qualität und Latenz von externen Soundkarten (Interfaces) normalerweise besser. Ein Audiointerface ist eine Box, an die du dein(e) Instrument(e) anschließen kannst. Normalerweise verbindet man ein Interface per USB mit deinem PC. Du kannst natürlich auch ein externes USB-Mikrofon probieren. Mehr Details findest du im [Hardware-Setup](Hardware-Setup).
-
 
 ### Latenz minimieren!
 
@@ -26,10 +28,11 @@ Je geringer die Latenz, desto besser kannst du mit anderen zusammenspielen. Die 
 Auch der Ping (Zeit, die ein Signal von deinem PC zum Jamulus Server und zurück benötigt) sollte so gering, wie möglich sein. Verbinde dich immer mit den Servern mit den **niedrigsten Ping-Zeiten**. 15ms oder weniger sind perfekt. Natürlich gibt es auch andere Einflussfaktoren für gelungene Online Musikstunden, die wichtigsten Faktoren kennst du jetzt aber!
 
 ## Bereit? Installiere Jamulus!
+
 <div class="fx-row-center-xs">
-  <div class="fx-col-100-xs fx-col-33-m" markdown="1">[Für Windows](Installation-for-Windows){:.button}</div>
-  <div class="fx-col-100-xs fx-col-33-m" markdown="1">[Für macOS](Installation-for-Macintosh){:.button}</div>
-  <div class="fx-col-100-xs fx-col-33-m" markdown="1">[Für Linux](Installation-for-Linux){:.button}</div>
+  <div class="fx-col-100-xs fx-col-33-m"><a href="Installation-for-Windows" class="button">Für Windows</a></div>
+  <div class="fx-col-100-xs fx-col-33-m"><a href="Installation-for-Macintosh" class="button">Für macOS</a></div>
+  <div class="fx-col-100-xs fx-col-33-m"><a href="Installation-for-Linux" class="button">Für Linux</a></div>
 </div>
 NEU! [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)
 
