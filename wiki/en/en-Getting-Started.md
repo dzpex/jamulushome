@@ -27,10 +27,14 @@ Always connect to servers with the **lowest ping times** as shown in your server
 
 ## Ready? Install Jamulus!
 
+{% include div-start.html classes="fx-row-start-xs" %}
 [For Windows users](Installation-for-Windows){:.button}
+
 [For Macintosh users](Installation-for-Macintosh){:.button}
+
 [For Linux users](Installation-for-Linux){:.button}
 
+{% include div-end.html %}
 [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)
 
 Run Jamulus on any computer using a USB stick (64-bit systems only). Checks your hardware and sets you up like a boss straight out of the box!
