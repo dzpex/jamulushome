@@ -4,7 +4,7 @@ This is the home of the Jamulus Website and Wiki.
 
 ## Tech
 
-Built with Jekyll
+Built with Jekyll and Fox-CSS
 
 ## Contribute and translation
 
