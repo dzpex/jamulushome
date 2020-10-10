@@ -26,6 +26,12 @@
   border-color: #ececec;
   color: #ececec;
 }
+@media (prefers-color-scheme: dark) {
+  #get_started_btn_top {
+    color: #dbdbdb;
+    border-color: #dbdbdb;
+  }
+}
 
 #dl_frm_sf_container {
   margin: .5em 0 0 0;
