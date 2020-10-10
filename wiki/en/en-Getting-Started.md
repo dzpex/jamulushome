@@ -38,7 +38,7 @@ Always connect to servers with the **lowest ping times** as shown in your server
 
 Run Jamulus on any computer using a USB stick (64-bit systems only). Checks your hardware and sets you up like a boss straight out of the box!
 
-# All installed?
+## All installed?
 
 If you set up Jamulus, have a look [Hardware Setup](Hardware-Setup)
 
@@ -46,7 +46,7 @@ For detailed information on using Jamulus, please see the [Help Manual](https://
 
 **Also [this excellent guide](https://www.facebook.com/notes/jamulus-online-musicianssingers-jamming/idiots-guide-to-jamulus-app/510044532903831/) by [Simon Tomlinson](https://www.facebook.com/simon.james.tomlinson?eid=ARBQoY3KcZAtS3pGdLJuqvQTeRSOo4gHdQZT7nNzOt1oPMGgZ4_3GERe-rOyH5PxsSHVYYXjWwcqd71a)** (_Facebook_)
 
-# Having trouble? Can't keep in time?
+## Having trouble? Can't keep in time?
 
 **ONLY. LISTEN. TO. THE. SIGNAL. FROM. THE. SERVER!**
 
