@@ -21,7 +21,7 @@ Obwohl du auch das eingebaute Mikrofon und damit die Soundkarte deines Computers
 
 ### Latenz minimieren!
 
-Je geringer die Latenz, desto besser kannst du mit anderen zusammenspielen. Die Minimierung der "Latenz" (Signalverzögerung) ist also entscheidend für ein erfolgreiches Zusammenspiel. Während du Jamulus verwendest, versuche keine anderen Programme auf deinem PC ausführen und den Internetverkehr in denem Netzwerk gering halten. Schau keine YouTube/Netflix Videos und stoppe Virenscans.
+Je geringer die Latenz, desto besser kannst du mit anderen zusammenspielen. Die Minimierung der „Latenz“ (Signalverzögerung) ist also entscheidend für ein erfolgreiches Zusammenspiel. Während du Jamulus verwendest, versuche keine anderen Programme auf deinem PC ausführen und den Internetverkehr in deinem Netzwerk gering halten. Schau keine YouTube/Netflix Videos und stoppe Virenscans.
 
 ### Ping!
 
@@ -52,7 +52,7 @@ Ausführliche Informationen zur Benutzung von Jamulus findest du im [Handbuch](h
 
 Oder anders ausgedrückt, höre **nicht** auf dein direktes Signal.
 
-Selbst wenn deine Internetverkehr gut ist: Wenn du nicht auf dein eigenes Signal vom Server hörst, wird es sehr schwer sein, den Rhythmus einzuhalten.  _(Um Zweifel auszuschließen: das hat nichts mit den "Mute"-Reglern in Jamulus zu tun.)_
+Selbst wenn deine Internetverbindung gut ist: Wenn du nicht auf dein eigenes Signal vom Server hörst, wird es sehr schwer sein, den Rhythmus einzuhalten.  _(Um Zweifel auszuschließen: das hat nichts mit den „Mute“-Reglern in Jamulus zu tun.)_
 
 Weitere Informationen darüber, wie du vermeiden kannst, auf dich selbst zu hören (und Hilfe bei anderen Problemen), findest du auf der [Fehlerbehebung FAQ](Client-Troubleshooting) Seite. (_momentan in Arbeit_)
 
