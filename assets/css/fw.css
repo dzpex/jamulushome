@@ -113,3 +113,13 @@ body>div {
   transition: 0.4s;
   opacity: 0.8;
 }
+
+@media @media (prefers-color-scheme: dark) {
+  h1, h2, h3, h4, h5, h6, a, #langselect  {
+    color: #0a99c6;
+  }
+  main {
+    background-color: #242323;
+    color: #dbdbdb;
+  }
+}
