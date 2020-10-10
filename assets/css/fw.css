@@ -123,4 +123,7 @@ body>div {
     background-color: #242323;
     color: #dbdbdb;
   }
+  .button, header {
+    background-color: #0a5067;
+  }
 }
