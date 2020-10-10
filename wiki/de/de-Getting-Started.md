@@ -38,7 +38,7 @@ NEU! [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)
 
 Starte Jamulus auf jedem PC (nur 64-Bit-Systeme) nur mit einem USB-Stick! Prüft deine Hardware automatisch und stellt sie ein.
 
-# Fertig? Alles installiert?
+## Fertig? Alles installiert?
 
 Wenn du Jamulus eingerichtet hast, schau dir das [Hardware-Setup](Hardware-Setup) an.
 
@@ -46,7 +46,7 @@ Ausführliche Informationen zur Benutzung von Jamulus findest du im [Handbuch](h
 
 **Auch [diese ausgezeichnete Anleitung](https://www.facebook.com/notes/jamulus-online-musicianssingers-jamming/idiots-guide-to-jamulus-app/510044532903831/) von [Simon Tomlinson](https://www.facebook.com/simon.james.tomlinson?eid=ARBQoY3KcZAtS3pGdLJuqvQTeRSOo4gHdQZT7nNzOt1oPMGgZ4_3GERe-rOyH5PxsSHVYYXjWwcqd71a)** (_Facebook_) kann dir weiterhelfen!
 
-# Schwierigkeiten? Probleme? Kannst du den Rhythmus nicht einhalten?
+## Schwierigkeiten? Probleme? Kannst du den Rhythmus nicht einhalten?
 
 **HÖRE. NUR. AUF. DAS. SIGNAL. VOM. SERVER!**
 
