@@ -52,6 +52,9 @@
 
 .wikisite #wnv {
   display: none;
+}
+
+.wikisite #wnv nav li {
   list-style-type: none;
 }
 
