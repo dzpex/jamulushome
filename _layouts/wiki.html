@@ -29,6 +29,7 @@
     <noscript><strong>Your browser has JavaScript disabled. That's totally fine. This site has been designed to provide basic functionality without JS. Enabling JavaScript may give you additional functionality on this site.</strong></noscript>
     {% include wiki/nav.html %}
     <div id="maincontainer" class="fx-col-100-xs fx-col-50-m">
+      <div id="editwiki"><a href="{{ site.githubrepoeditbase }}/{{ page.path }}"><img alt="Edit this page" src="{{ 'assets/img/edit.svg'| relative_url }}" width="16" height="16" /></a></div>
       <main>{{ content }}</main>
       <div id="license">{% include wiki/{{ site.active_lang }}/wikilicense.html %}</div>
       <div id="ftext">
