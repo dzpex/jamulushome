@@ -5,7 +5,7 @@ lang: "en"
 permalink: "/wiki/Getting-Started"
 ---
 
-# Getting Started with Jamulus TEST EDIT
+# Getting Started with Jamulus
 
 ## You will need
 
