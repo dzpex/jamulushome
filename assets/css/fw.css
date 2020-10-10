@@ -18,6 +18,11 @@ header {
   padding: 1em 0 1em 0;
 }
 
+code {
+  background-color: #d3d3d3;
+  border-radius: 2px;
+}
+
 #langselect {
   color: #1181a4;
 }
@@ -122,14 +127,21 @@ body>div {
   #footer {
     background-color: #0a99c6;
   }
+
   #wnv {
     background-color: #262a2b;
   }
+
   body {
     background-color: #242323;
     color: #dbdbdb;
   }
+
   .button, header {
     background-color: #0a5067;
+  }
+
+  code {
+    background-color: #2b2f2f;
   }
 }
