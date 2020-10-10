@@ -125,7 +125,7 @@ body>div {
   }
 
   #footer {
-    background-color: #0a99c6;
+    background-color: #0a5067;
   }
 
   #wnv {
@@ -139,6 +139,10 @@ body>div {
 
   .button, header {
     background-color: #0a5067;
+  }
+
+  .button {
+    color: #cecdd2;
   }
 
   code {

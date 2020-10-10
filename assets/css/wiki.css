@@ -110,4 +110,8 @@
   .wikisite #wnv h2, #wnv a {
     color: #10b0e2;
   }
+
+  .wikisite #wikinav a .selected {
+    color: #389ebd;
+  }
 }
