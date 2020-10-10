@@ -52,6 +52,7 @@
 
 .wikisite #wnv {
   display: none;
+  list-style-type: none;
 }
 
 @media (min-width:940px) {
