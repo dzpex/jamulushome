@@ -119,10 +119,12 @@ body>div {
     color: #0a99c6;
   }
 
-  footer {
+  #footer {
     background-color: #0a99c6;
   }
-
+  #wnv {
+    background-color: #262a2b;
+  }
   body {
     background-color: #242323;
     color: #dbdbdb;
