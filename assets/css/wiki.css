@@ -102,4 +102,8 @@
   .wikisite #ftext {
     border-top-color: #0a99c6;
   }
+
+  .wikisite #wnv h2, #wnv a {
+    color: #10b0e2;
+  }
 }
