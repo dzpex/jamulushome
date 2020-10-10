@@ -102,3 +102,9 @@
   margin-top: 1em;
   border-top: solid #1181a4;
 }
+
+@media (prefers-color-scheme: dark) {
+  .wikisite #ftext {
+    border-top-color: #0a99c6;
+  }
+}
