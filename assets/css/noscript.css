@@ -9,3 +9,7 @@
 noscript {
   color: #c94a55;
 }
+
+#suglang {
+  display: block !important;
+}

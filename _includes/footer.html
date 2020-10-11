@@ -20,4 +20,12 @@
     {% include general/{{ site.active_lang }}/copyrightfooter.html %}
   </div>
 </footer>
-<script>var f=2;</script><!-- chrome bugfix -->
+<script>
+  var bl = window.navigator.language || window.navigator.userLanguage;
+  var dl = document.documentElement.lang;
+  var sl = "[{% for lng in site.languages %}'{{ lng }}',{% endfor %}]";
+  if (bl != dl && sl.includes(bl)) {
+    document.getElementById('langselect').classList.add('chlang');
+    document.getElementById('suglang').style.display = "block";
+  }
+</script>

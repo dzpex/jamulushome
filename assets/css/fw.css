@@ -27,6 +27,19 @@ code {
   border-radius: 2px;
 }
 
+#suglang {
+  display: none;
+}
+
+.chlang {
+  border: solid 2px #c94a55;
+  padding: 0.2em;
+}
+
+.chlang ul li a,.chlang div, #langselect.chlang li.selected {
+  color: #c94a55;
+}
+
 #langselect {
   color: #1181a4;
 }
