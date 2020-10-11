@@ -141,6 +141,10 @@ body>div {
     color: #1b90b5;
   }
 
+  .wikisite #navbtn svg {
+    color: #dbdbdb !important;
+  }
+
   #langselect .selected {
     color: #1da3cc;
   }
