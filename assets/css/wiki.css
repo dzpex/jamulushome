@@ -58,11 +58,11 @@
   list-style-type: none;
 }
 
-.wikisite #editsitecontent svg {
+.wikisite #editsitecontent svg path {
   fill: #1181a4;
 }
 
-.wikisite #navbtn svg {
+.wikisite #navbtn svg rect {
   fill: #ffffff;
 }
 
@@ -115,11 +115,11 @@
     border-top-color: #0a5067;
   }
 
-  .wikisite #navbtn svg {
+  .wikisite #navbtn svg rect {
     fill: #dbdbdb;
   }
 
-  .wikisite #editsitecontent svg {
+  .wikisite #editsitecontent svg path {
     fill: #1b90b5;
   }
 
