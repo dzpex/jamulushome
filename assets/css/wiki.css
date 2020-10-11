@@ -58,6 +58,14 @@
   list-style-type: none;
 }
 
+.wikisite #editsitecontent svg {
+  fill: #1181a4;
+}
+
+.wikisite #navbtn svg {
+  fill: #ffffff;
+}
+
 @media (min-width:940px) {
   .wikisite #wnv {
     display: block !important;
@@ -105,6 +113,14 @@
 @media (prefers-color-scheme: dark) {
   .wikisite #ftext {
     border-top-color: #0a5067;
+  }
+
+  .wikisite #navbtn svg {
+    fill: #dbdbdb;
+  }
+
+  .wikisite #editsitecontent svg {
+    fill: #1b90b5;
   }
 
   .wikisite #wnv h2, #wnv a {

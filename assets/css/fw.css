@@ -140,11 +140,7 @@ body>div {
   h1, h2, h3, h4, h5, h6, a, #langselect {
     color: #1b90b5;
   }
-
-  .wikisite #navbtn svg {
-    color: #dbdbdb !important;
-  }
-
+  
   #langselect .selected {
     color: #1da3cc;
   }
