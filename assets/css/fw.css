@@ -141,6 +141,10 @@ body>div {
     color: #0a99c6;
   }
 
+  #langselect .selected {
+    color: #1da3cc;
+  }
+
   #footer {
     background-color: #0a5067;
   }
