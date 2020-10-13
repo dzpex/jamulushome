@@ -136,6 +136,12 @@ body>div {
   opacity: 0.8;
 }
 
+@media (min-width:940px) {
+  #langselect ul li {
+    margin: 0 0.6em 0 0;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   h1, h2, h3, h4, h5, h6, a, #langselect {
     color: #1ea4ce;
