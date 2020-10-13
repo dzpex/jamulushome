@@ -138,9 +138,9 @@ body>div {
 
 @media (prefers-color-scheme: dark) {
   h1, h2, h3, h4, h5, h6, a, #langselect {
-    color: #1b90b5;
+    color: #1ea4ce;
   }
-  
+
   #langselect .selected {
     color: #1da3cc;
   }
