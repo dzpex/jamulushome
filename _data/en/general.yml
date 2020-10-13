@@ -4,3 +4,5 @@ footer:
     facebook:    "Jamulus Facebook Group"
     sourceforge: "Get Internet Jam Session Software at SourceForge.net. Fast, secure and Free Open Source software downloads"
 btnEditAlt: "Edit this site"
+tNoJSEnabled: "Your browser has JavaScript disabled. That's totally fine. This site has been designed to provide basic functionality without JS. Enabling JavaScript may give you additional functionality on this site."
+btnOpenNavigation: "Open navigation"
