@@ -29,8 +29,8 @@ Auch der Ping (Zeit, die ein Signal von deinem PC zum Jamulus Server und zurück
 
 ## Bereit? Installiere Jamulus!
 
-<div class="fx-row fx-row-start-xs">
-<a href="Installation-for-Windows" class="button fx-col-100-xs fx-col-33-m">Für Windows</a>
+<div class="fx-row fx-row-start-xs button-container">
+  <a href="Installation-for-Windows" class="button fx-col-100-xs fx-col-33-m">Für Windows</a>
   <a href="Installation-for-Macintosh" class="button fx-col-100-xs fx-col-33-m">Für macOS</a>
   <a href="Installation-for-Linux" class="button fx-col-100-xs fx-col-33-m">Für Linux</a>
 </div>

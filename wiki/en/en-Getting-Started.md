@@ -29,7 +29,7 @@ Always connect to servers with the **lowest ping times** as shown in your server
 
 ## Ready? Install Jamulus!
 
-<div class="fx-row fx-row-start-xs">
+<div class="fx-row fx-row-start-xs button-container">
 <a href="Installation-for-Windows" class="button fx-col-100-xs fx-col-33-m">For Windows users</a>
   <a href="Installation-for-Macintosh" class="button fx-col-100-xs fx-col-33-m">For macOS users</a>
 <a href="Installation-for-Linux" class="button fx-col-100-xs fx-col-33-m">For Linux users</a>

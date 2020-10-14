@@ -138,6 +138,14 @@ body>div {
   opacity: 0.8;
 }
 
+.buttoncontainer {
+  padding: 0;
+}
+
+.buttoncontainer a {
+  margin: auto;
+}
+
 @media (min-width:940px) {
   #langselect ul li {
     margin: 0 0.3em 0 0;
