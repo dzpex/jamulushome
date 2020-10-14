@@ -25,6 +25,8 @@ header {
 code {
   background-color: #d3d3d3;
   border-radius: 2px;
+  display: inline-block;
+  padding: 3px;
 }
 
 #suglang {
