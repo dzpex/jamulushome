@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Jamulus - Privacy Statement"
+title: "Jamulus – Privacy Statement"
 lang: "en"
 permalink: "/wiki/Privacy-Statement"
 ---
@@ -15,9 +15,9 @@ When you connect to a public server, your profile is also available to third par
 
 ### Use of IP Addresses
 
-When you connect to a public or private server, the server operator can see your IP address while you are connected.  If the server operator has enabled logging (which is off by default) your IP address will also be logged and stored in the server's log file. 
+When you connect to a public or private server, the server operator can see your IP address while you are connected.  If the server operator has enabled logging (which is off by default) your IP address will also be logged and stored in the server's log file.
 
-As a server operator, when you register a public server with a Central Server, your IP address is sent to CloudFlare (1.1.1.1) in order to identify your public IP address. The IP addresses of all public servers registered with the Central Server can also be seen by third parties for informational or other purposes (for example [here](http://jamulus.softins.co.uk/)). Your public IP address is otherwise not logged or stored by Jamulus, but may be stored or processed by third parties. 
+As a server operator, when you register a public server with a Central Server, your IP address is sent to CloudFlare (1.1.1.1) in order to identify your public IP address. The IP addresses of all public servers registered with the Central Server can also be seen by third parties for informational or other purposes (for example [here](http://jamulus.softins.co.uk/)). Your public IP address is otherwise not logged or stored by Jamulus, but may be stored or processed by third parties.
 
 _Users concerned by the use of CloudFlare's network can [re-compile](Compiling) the Jamulus source code to use an alternative for WELL_KNOWN_HOST/ WELL_KNOWN_PORT in [global.h](https://github.com/corrados/jamulus/blob/master/src/global.h#L116)_
 
@@ -27,4 +27,4 @@ You will see a notice if you are connected to a Jamulus server while server reco
 
 ### Text Chat
 
-When you type a message in the Chat Window, other connected players can see that, but chats are not stored by the server and neither the server operator nor any third parties have access to them. 
+When you type a message in the Chat Window, other connected players can see that, but chats are not stored by the server and neither the server operator nor any third parties have access to them.

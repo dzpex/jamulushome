@@ -8,3 +8,5 @@ tNoJSEnabled:        "JavaScript ist in deinem Browser nicht aktiviert. Das ist 
 nav:
   btnOpenNavigation: "Navigationsmenü öffnen"
   altJamulusIcon:    "Jamulus Icon. Link zur Wiki Startseite"
+wiki:
+  titleAdd: "– Jamulus Wiki"

@@ -8,3 +8,5 @@ tNoJSEnabled:        "Your browser has JavaScript disabled. That's totally fine.
 nav:
   btnOpenNavigation: "Open navigation"
   altJamulusIcon:    "Jamulus Icon. Links to Wiki homepage"
+wiki:
+  titleAdd: "– Jamulus Wiki"

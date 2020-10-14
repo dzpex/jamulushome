@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Home - Jamulus Wiki"
+title: "Home"
 lang: "en"
 permalink: "/wiki/"
 metadescription: "How to install and setup Jamulus? What do I need to get a Jamulus Server up and running? Look here at the official Wiki."

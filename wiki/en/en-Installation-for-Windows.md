@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Installation for Windows - Jamulus Wiki"
+title: "Installation for Windows"
 lang: "en"
 permalink: "/wiki/Installation-for-Windows"
 ---
@@ -8,15 +8,15 @@ permalink: "/wiki/Installation-for-Windows"
 # Installation for Windows
 
 1. **Download and install an ASIO Driver**. It is recommended to use a sound card/interface with a native ASIO driver. If you don't have one, install [this free ASIO driver (ASIO4All)](http://www.asio4all.org)  **before** installing Jamulus.
-1. **Download and install Jamulus** from the [Jamulus project page](https://sourceforge.net/projects/llcon/files/). If you get a warning notice, click on "More info" and "Run anyway" to install Jamulus. 
+1. **Download and install Jamulus** from the [Jamulus project page](https://sourceforge.net/projects/llcon/files/). If you get a warning notice, click on "More info" and "Run anyway" to install Jamulus.
 1. **Setup your sound card**. When you're done, you need to setup your audio hardware. Have a look at how to setup ASIO4All if you you're using that (scroll down), and afterwards at [Hardware Setup](Hardware-Setup).
 
-You can also [compile your own binary](Compiling) if you feel so inclined. 
+You can also [compile your own binary](Compiling) if you feel so inclined.
 
 ## Setting up ASIO4All
 *ASIO4All is not recommended if your audio interface provides its own ASIO driver, since that might have better latency.*
 
-First of all **close all applications** (especially those which could access your soundcard like your browser) to minimize conflicts. If the audio doesn’t work out of the box, make sure that only the **correct inputs/outputs** in its control panel **are switched on**. 
+First of all **close all applications** (especially those which could access your soundcard like your browser) to minimize conflicts. If the audio doesn’t work out of the box, make sure that only the **correct inputs/outputs** in its control panel **are switched on**.
 You may need to experiment a bit to find the right ones since every computer is a bit different. Do this while you're connected to a server to hear your instrument or voice and check if everything is correctly setup.
 
 ### How to setup ASIO4All inputs (Guide)
@@ -24,10 +24,10 @@ You may need to experiment a bit to find the right ones since every computer is 
 1. Open Jamulus's settings
 1. Go to _"ASIO Settings"_
 1. Enable _advanced view_ in ASIO4All (click the tool icon on the bottom right)
-1. Open your soundcard inputs by clicking the _plus icon_ next to the soundcard name. 
+1. Open your soundcard inputs by clicking the _plus icon_ next to the soundcard name.
 1. Now enable/disable the correct inputs/outputs
 
-Many internal sound cards are named Realtek High Definition Audio, Conexant or similar. 
+Many internal sound cards are named Realtek High Definition Audio, Conexant or similar.
 Headphones and speakers are often labeled as output and microphones as inputs.
 
 ### Having trouble with ASIO4All setup?

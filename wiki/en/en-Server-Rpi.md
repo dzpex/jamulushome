@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Server Installation - Raspberry Pi"
+title: "Server Installation – Raspberry Pi"
 lang: "en"
 permalink: "/wiki/Server-Rpi"
 ---
@@ -38,7 +38,7 @@ See also [Command Line Options](Command-Line-Options) for other parameters you c
 
 ### To upgrade Jamulus
 
-Stop the server and simply repeat step 3 for obtaining the sources and installing above. 
+Stop the server and simply repeat step 3 for obtaining the sources and installing above.
 
 If you want to install a specific release, you can do the following using git (where `[RELEASE]` is a release ID such as r3_5_8). See the [official tagged releases](https://github.com/corrados/jamulus/releases).
 
