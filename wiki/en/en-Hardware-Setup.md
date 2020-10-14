@@ -30,7 +30,7 @@ Success with Jamulus is partially dependent on the quality of your audio device 
 
 _(Thanks to [pcar75](https://github.com/pcar75) for this information)_
 
-# Example Setups
+## Example Setups
 
 Setting up hardware usually burns down to 4 points, although each setup is different.
 
@@ -39,7 +39,7 @@ Setting up hardware usually burns down to 4 points, although each setup is diffe
 3. Plug in your instrument/microphone and headphones
 4. Connect to a Jamulus server and have fun!
 
-## Hardware Setup for Linux Clients with QJackCtrl
+### Hardware Setup for Linux Clients with QJackCtrl
 Assume you have installed `qjackctrl` with your Jamulus installation. If not see installation of `qjackctrl` with your package manager and your Linux-Distribution (the linux install script in the directory [`/distributions/installscripts`](https://github.com/corrados/jamulus/tree/master/distributions/installscripts) of this repository installs `qjackctrl` for you. Otherwise Linux setup guide on this Wiki.
 1. **(Device Plugin)** Plug the interface into a USB port on your computer
 2. Plug in your instrument/microphone and headphones in your audio interface (e.g. Focusrite 2i2)
@@ -51,10 +51,10 @@ Assume you have installed `qjackctrl` with your Jamulus installation. If not see
 6. **(Restart QJackCrtl)** Restart Jack-Server so that your hardware audio interface is properly set as recording/input device. 
 7. **(Start Jamulus)** Start Jamulus after the Jack-server was restarted, so that Jamulus will receive the input of your guitar of microphone from your USB audio interface. Then you can connect to your own server or connect to public available servers for jamming with other musicians on the internet. 
 
-## Linux: Low Latency Kernels for Jamulus
+### Linux: Low Latency Kernels for Jamulus
 You might want to install Ubuntu Studio (URL: https://ubuntustudio.org/ ) it adds a second options in your boot menu for a low-latency kernel. The key of successful jamming is "low latency" between servers and connected Jamulus clients. If the underlying Linux system is started with a low-latency then it has a positive impact on latency for your Jamulus Sessions.
 
-## Windows: Audio interface connection - ASIO4All
+### Windows: Audio interface connection - ASIO4All
  
 This is an example Windows client installation with audio device [Behringer U-CONTROL UCA202](https://www.amazon.com/Behringer-U-Phono-UFO202-Audiophile-Interface/dp/B002GHBYZ0).
 The following instructions might be similar with other audio devices.
