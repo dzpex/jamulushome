@@ -19,6 +19,8 @@ _You can remove the folder in the Downloads directory containing the `.dmg` and 
 
 You can also [compile your own binary](Compiling) if you feel so inclined.
 
+## "Jamulus" can't be opened because the developer cannot be verified
+
 **The first time you try to double-click Jamulus to run it, you will probably see a message saying it cannot be opened.**
 
 To fix this, navigate to the Applications folder via Finder click on Jamulus, right-click (or control-click), and select "Open" from the top of the menu.
