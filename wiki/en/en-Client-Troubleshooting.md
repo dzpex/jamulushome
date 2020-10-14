@@ -5,7 +5,7 @@ lang: "en"
 permalink: "/wiki/Client-Troubleshooting"
 ---
 
-_We are currently compiling a list of common problems and solutions._
+# Troubleshooting
 
 ### Don’t hear any sound/Others don’t hear you?
 Start with the simple stuff: make sure your instrument/microphone and headphones are connected to the correct sockets. Make sure no other applications like your browser, video conferencing tool etc. is also using your soundcard. You should shut those down when using Jamulus. If that all looks OK and the problem persists, it's likely there's an issue with your sound device settings. This will depend on your particular setup (platform, hardware, software and drivers), so it's best to ask on [the forums](https://sourceforge.net/p/llcon/discussion/software/) for guidance.
