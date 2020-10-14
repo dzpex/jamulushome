@@ -10,13 +10,9 @@ permalink: "/wiki/Installation-for-Macintosh"
 You want to run Jamulus on macOS? To install the client and server follow these instructions.
 
 1. **[Download the latest version of Jamulus](https://sourceforge.net/projects/llcon/files/)**
-
 1. **Extract the downloaded .zip file.** Double-click on the .zip file, which will create new folder of same name. The folder contains the license file and a `.dmg` file containing the application.
-
 1. **Double-click the `.dmg` file** to open it. It will unpack and you will see two files (Jamulus client and server)
-
 1. **Drag and drop both icons into your Applications folder** to install Jamulus.
-
 1. **Run Jamulus**. Now you should be able to use Jamulus just like any other application. If you see a message which tells you that Jamulus can't be opened because the developer can't be verified, read on and have a look at the following section.
 
 _You can remove the folder in the Downloads directory containing the `.dmg` and eject the "Jamulus" drive on your desktop. They are no longer needed._
