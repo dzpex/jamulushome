@@ -101,8 +101,12 @@
   }
 }
 
-.wikisite h1 {
+.wikisite main h1 {
   margin-top: 0;
+}
+
+.wikisite main h1, .wikisite main h2 {
+  border-bottom: 1px solid;
 }
 
 .wikisite #license {
