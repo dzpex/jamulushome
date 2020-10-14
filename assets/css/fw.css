@@ -29,6 +29,10 @@ code {
   padding: 3px;
 }
 
+main li {
+  margin-bottom: 0.5em;
+}
+
 #suglang {
   display: none;
 }
