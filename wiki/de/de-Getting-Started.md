@@ -21,7 +21,7 @@ Obwohl du auch das eingebaute Mikrofon und damit die Soundkarte deines Computers
 
 Je geringer die Latenz, desto besser kannst du mit anderen zusammenspielen. Die Minimierung der „Latenz“ (Signalverzögerung) ist also entscheidend für ein erfolgreiches Zusammenspiel. Während du Jamulus verwendest, versuche keine anderen Programme auf deinem PC ausführen und den Internetverkehr in deinem Netzwerk gering halten. Schau keine YouTube/Netflix Videos und stoppe Virenscans.
 
-### Ping!
+#### Ping!
 
 Auch der Ping (Zeit, die ein Signal von deinem PC zum Jamulus Server und zurück benötigt) sollte so gering, wie möglich sein. Verbinde dich immer mit den Servern mit den **niedrigsten Ping-Zeiten**. 15ms oder weniger sind perfekt. Natürlich gibt es auch andere Einflussfaktoren für gelungene Online Musikstunden, die wichtigsten Faktoren kennst du jetzt aber!
 
