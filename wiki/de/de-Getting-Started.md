@@ -34,7 +34,7 @@ Auch der Ping (Zeit, die ein Signal von deinem PC zum Jamulus Server und zurück
   <a href="Installation-for-Macintosh" class="button fx-col-100-xs">Für macOS</a>
   <a href="Installation-for-Linux" class="button fx-col-100-xs">Für Linux</a>
 </div>
-NEU! [Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)
+[Jamulus OS!](https://sourceforge.net/projects/jamulus-os/files/JamulusOS/)
 
 Starte Jamulus auf jedem PC (nur 64-Bit-Systeme) nur mit einem USB-Stick! Prüft deine Hardware automatisch und stellt sie ein.
 
