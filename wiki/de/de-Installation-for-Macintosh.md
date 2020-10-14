@@ -15,7 +15,7 @@ permalink: "/wiki/Installation-for-Macintosh"
 
 _Du kannst den Ordner, der die `.dmg` Datei enthält im Downloads löschen und den virtuellen "Jamulus" Datenträger auf deinem Schreibtisch auswerfen. Beides wird nicht mehr gebraucht._
 
-Du kannst auch Jamulus auch selbst [kompilieren](Compiling), wenn du das willst.
+Du kannst Jamulus auch selbst [kompilieren](Compiling), wenn du das willst.
 
 
 **Wenn du Jamulus zum ersten Mal öffnen willst, wirst du wahrscheinlich eine Meldung, dass Jamulus nicht geöffnet werden kann sehen, da der Entwickler unbekannt sei.**
