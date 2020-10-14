@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Start - Jamulus Wiki"
+title: "Start"
 lang: "de"
 permalink: "/wiki/"
 metadescription: "Wie installiert und richtet man Jamulus ein? Was benötige ich, um einen Jamulus-Server zum Laufen zu bringen? Schau hier in das offizielle Wiki."
