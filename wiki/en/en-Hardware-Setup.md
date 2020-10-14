@@ -86,9 +86,6 @@ You're done! Have fun!
 
 Please see the [Client Troubleshooting FAQ](Client-Troubleshooting)
 
-***
-
-
 ## Other examples
 
 **This video documents a [live jam session](https://youtu.be/c8838jS2g3U).** I am using a Lexicon Omega USB audio card on a 2009 Mac Mini. My bandmates all use Windows 10 and have Behringer audio cards, e.g. the Behringer Xenyx 1204USB. My internet connection is 10 Mbps down / 1 Mbps upstream via DSL.
