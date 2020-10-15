@@ -5,8 +5,8 @@ languages: ["en", "es", "de"]
 default_lang: "en"
 exclude_from_localization: ["assets", "images", "css", "README.md"]
 parallel_localization: true
-baseurl: jamulushome
-a_rootpage: "https://gilgongo.github.io"
+baseurl: /
+a_rootpage: "http://127.0.0.1:4000"
 githubrepoeditbase: "https://github.com/gilgongo/jamulushome/edit/polyglot"
 exclude: ["README.md", "Gemfile.lock", "Gemfile", "CONTRIBUTING.md"]
 jekyll-minifier:
