@@ -29,6 +29,20 @@ code {
   padding: 3px;
 }
 
+table, th, td {
+  border: solid 1px #d3d3d3;
+}
+
+td, th {
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  overflow-y: auto;
+  margin: 0 0 1em;
+}
+
 main li {
   margin-bottom: 0.5em;
 }
