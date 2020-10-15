@@ -1,11 +1,5 @@
 nav:
-- title:                 Jamulus Links
-  subfolderitems:
-    - page:              Jamulus Homepage
-      url:               /
-    - page:              Wiki Home
-      url:               /wiki
-- title:                 Client
+- title:                 Using Jamulus
   subfolderitems:
     - page:              Getting Started
       url:               /wiki/Getting-Started
@@ -16,10 +10,31 @@ nav:
           url:           /wiki/Installation-for-Macintosh
         - page:          Installation Linux
           url:           /wiki/Installation-for-Linux
-- title:                 Server
-  url:                   /wiki/invalid
+        - page:          Troubleshooting
+          url:           /wiki/Client-Troubleshooting
+- title:                 Running a Server
+  url:                   /wiki/Running-a-Server
   subfolderitems:
-    - page:              Sever types
-      url:               /wiki/invalid
-    - page:              Run a private server
-      url:               /wiki/invalid
+    - page:              Server Types
+      url:               /wiki/Server-Types
+    - page:              Private Servers
+      url:               /wiki/Running-a-Private-Server
+    - page:              Troubleshooting
+      url:               /wiki/Server-Troubleshooting
+- title:                 More
+  url:                   /wiki/null
+  subfolderitems:
+    - page:              Configuration
+      url:               /wiki/Command-Line-Options
+    - page:              Tips & Tricks
+      url:               /wiki/Tips-Tricks-More
+    - page:              Compiling
+      url:               /wiki/Compiling   
+    - page:              Demos
+      url:               /wiki/Demos
+    - page:              Contribution
+      url:               /wiki/Contribution
+    - page:              Privacy Statement
+      url:               /wiki/Privacy-Statement
+  
+      
