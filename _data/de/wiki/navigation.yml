@@ -1,25 +1,40 @@
 nav:
-- title:                 Jamulus Links
-  subfolderitems:
-    - page:              Jamulus Startseite
-      url:               /
-    - page:              Wiki Startseite
-      url:               /wiki
-- title:                 Client
+- title:                 Using Jamulus
   subfolderitems:
     - page:              Schnellstart
       url:               /wiki/Getting-Started
       subsubfolderitems:
-        - page:          Installation Windows
+        - page:          Windows
           url:           /wiki/Installation-for-Windows
-        - page:          Installation Mac
+        - page:          Macintosh
           url:           /wiki/Installation-for-Macintosh
-        - page:          Installation Linux
+        - page:          Linux
           url:           /wiki/Installation-for-Linux
+        - page:          Fehlerbehebung
+          url:           /wiki/Client-Troubleshooting
 - title:                 Server
-  url:                   /wiki/invalid
   subfolderitems:
-    - page:              Sever Types
-      url:               /wiki/invalid
-    - page:              Run a private server
-      url:               /wiki/invalid
+    - page:              Server Schnellstart
+      url:               /wiki/Running-a-Server
+    - page:              Server Typen
+      url:               /wiki/Choosing-a-Server-Type
+    - page:              Private Server
+      url:               /wiki/Running-a-Private-Server
+    - page:              Server Fehlerbehebung
+      url:               /wiki/Server-Troubleshooting
+- title:                 Mehr
+  subfolderitems:
+    - page:              CLI
+      url:               /wiki/Command-Line-Options
+    - page:              Tipps & Tricks
+      url:               /wiki/Tips-Tricks-More
+    - page:              Kompilieren
+      url:               /wiki/Compiling   
+    - page:              Demos
+      url:               /wiki/Demos
+    - page:              Mithelfen
+      url:               /wiki/Contribution
+    - page:              Datenschutz
+      url:               /wiki/Privacy-Statement
+  
+      
