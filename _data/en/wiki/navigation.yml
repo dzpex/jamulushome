@@ -4,11 +4,11 @@ nav:
     - page:              Getting Started
       url:               /wiki/Getting-Started
       subsubfolderitems:
-        - page:          Installation Windows
+        - page:          Windows
           url:           /wiki/Installation-for-Windows
-        - page:          Installation Mac
+        - page:          Macintosh
           url:           /wiki/Installation-for-Macintosh
-        - page:          Installation Linux
+        - page:          Linux
           url:           /wiki/Installation-for-Linux
         - page:          Troubleshooting
           url:           /wiki/Client-Troubleshooting
