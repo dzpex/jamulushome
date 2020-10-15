@@ -22,7 +22,6 @@ nav:
     - page:              Troubleshooting
       url:               /wiki/Server-Troubleshooting
 - title:                 More
-  url:                   /wiki/null
   subfolderitems:
     - page:              Configuration
       url:               /wiki/Command-Line-Options
