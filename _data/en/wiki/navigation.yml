@@ -13,8 +13,9 @@ nav:
         - page:          Troubleshooting
           url:           /wiki/Client-Troubleshooting
 - title:                 Running a Server
-  url:                   /wiki/Running-a-Server
   subfolderitems:
+    - page:              Getting Started
+      url:               /wiki/Running-a-Server
     - page:              Server Types
       url:               /wiki/Choosing-a-Server-Type
     - page:              Private Servers
