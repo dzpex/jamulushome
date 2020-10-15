@@ -16,7 +16,7 @@ nav:
   url:                   /wiki/Running-a-Server
   subfolderitems:
     - page:              Server Types
-      url:               /wiki/Server-Types
+      url:               /wiki/Choosing-a-Server-Type
     - page:              Private Servers
       url:               /wiki/Running-a-Private-Server
     - page:              Troubleshooting
