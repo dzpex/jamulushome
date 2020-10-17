@@ -39,7 +39,7 @@ Afterwards try to **setup the inputs/outputs again**. Enabled and accessible inp
 
 Have a look at [this video](https://youtu.be/_GzOsitVgLI) from @trombonepizza which gives more detailed setup information on ASIO4All.
 
-Official and more detailed info about how to configure ASIO4All is documented in the ASIO4All manual. This can most likely be found on your desktop or in the folder where the ASIO4All binary is installed (usually `C:\Program Files (x86)\ASIO4ALL v2\`).
+Official and more detailed info about how to configure ASIO4All is documented in the official [ASIO4All FAQs on the ASIO4All](http://www.asio4all.org/faq.html) website and in the ASIO4All manual. This can most likely be found on your desktop or in the folder where the ASIO4All binary is installed (usually `C:\Program Files (x86)\ASIO4ALL v2\`).
 
 ## All installed?
 Jamulus has been installed and can be used now. If you haven't set up your audio gear yet, have a look at [Hardware Setup](Hardware-Setup).
