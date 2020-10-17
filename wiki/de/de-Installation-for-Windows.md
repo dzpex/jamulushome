@@ -39,7 +39,7 @@ Danach versuche **die Ein-/Ausgänge neu einzurichten**. Aktivierte und zugängl
 
 Wirf einen Blick auf [dieses Video](https://youtu.be/_GzOsitVgLI) von @trombonepizza, das ausführlichere Informationen zur Einrichtung von ASIO4All gibt (English).
 
-Offizielle und ausführlichere Infos zur Konfiguration von ASIO4All sind im ASIO4All Handbuch dokumentiert. Diese findest du höchstwahrscheinlich auf deinem Desktop oder in dem Ordner, in dem das ASIO4All-Binary installiert ist (normalerweise `C:\Program Files (x86)\ASIO4ALL v2\`).
+Offizielle und ausführlichere Infos zur Konfiguration von ASIO4All sind in den [FAQs auf der ASIO4All Website](http://www.asio4all.org/faq.html), sowie im ASIO4All Handbuch dokumentiert. Diese findest du höchstwahrscheinlich auf deinem Desktop oder in dem Ordner, in dem das ASIO4All-Binary installiert ist (normalerweise `C:\Program Files (x86)\ASIO4ALL v2\`).
 
 ## Alles installiert?
 Jamulus wurde installiert und kann jetzt benutzt werden. Wenn du dein Audio-Equipment noch nicht eingerichtet hast, schau im [Hardware-Setup](Hardware-Setup).
