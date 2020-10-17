@@ -12,7 +12,7 @@ permalink: "/wiki/Hardware-Setup"
 
 **For the Jamulus software to run stable it is recommended to use a PC with at least 1.5GHz CPU frequency.**
 
-**Windows users**: You need to install an ASIO driver. If you haven't installed one yet, please do so. Best use a sound card with a native ASIO driver to ensure the lowest possible latencies. If your sound card doesn't provide one, try using this [free ASIO driver (ASIO4All)](http://www.asio4all.org) instead. To setup ASIO4All, have a look at this [basic setup guide](https://github.com/corrados/jamulus/wiki/Installation-for-Windows#setting-up-asio4all).
+**Windows users**: You need to install an ASIO driver. If you haven't installed one yet, please do so. Best use a sound card with a native ASIO driver to ensure the lowest possible latencies. If your sound card doesn't provide one, try using this [free ASIO driver (ASIO4All)](http://www.asio4all.org) instead. To setup ASIO4All, have a look at this [basic setup guide](Installation-for-Windows#setting-up-asio4all).
 
 Example setups can be found further down this page.
 
