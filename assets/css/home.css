@@ -37,7 +37,7 @@
     border-color: #dbdbdb;
   }
 
-  .mainsite header h1 {
+  .mainsite header h1, .mainsite, header a {
     color: #dbdbdb;
   }
 }
