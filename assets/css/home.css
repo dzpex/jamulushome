@@ -30,11 +30,13 @@
   border-color: #ececec;
   color: #ececec;
 }
+
 @media (prefers-color-scheme: dark) {
   #get_started_btn_top {
     color: #dbdbdb;
     border-color: #dbdbdb;
   }
+
   .mainsite header h1 {
     color: #dbdbdb;
   }

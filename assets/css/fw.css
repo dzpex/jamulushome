@@ -19,6 +19,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.red {
+  color: #c94a55 !important;
+}
+
+.red-bg {
+  background-color: #c94a55 !important;
+}
+
 header {
   background-color: #49a9c9;
   color: #ffffff;
@@ -86,7 +94,7 @@ main li {
   color: #2b7288;
 }
 
-header #navbtn svg {
+header #navbtn {
   color: #ffffff;
 }
 
@@ -120,7 +128,7 @@ nav {
   padding: 10px 10px 10px 10px;
 }
 
-#navbtn svg {
+#navbtn {
   cursor: pointer;
   margin: 0;
 }
@@ -264,7 +272,7 @@ main>div {
     color: #1da3cc;
   }
 
-  header #navbtn svg {
+  header #navbtn {
     color: #dbdbdb;
   }
 

@@ -4,10 +4,10 @@ lang: en
 ---
 <!DOCTYPE html>
 <!--[if IE 9]> <html class="ie9"> <![endif]-->
-<html>
+<html lang="{{ site.active_lang }}">
 
 <head>
-  <title>404 Not found - Jamulus{{ page.title }}</title>
+  <title>404 Not found - Jamulus</title>
   {% include headtags.html %}
 </head>
 
@@ -19,9 +19,9 @@ lang: en
   </header>
   <main class="fx-row-center-xs">
     <div class="fx-col-center-xs fx-txt-center">
-      <h1>404. There's nothing here</h1>
+      <h1 class="red">404. There's nothing here</h1>
       <p>Maybe this site was moved or deleted. Did you check if there was a typo?</p>
-      <p><a href="#" class="button" onclick="history.go(-1);return false;">Try going back</a></p>
+      <p><a href="#" class="button red-bg" onclick="history.go(-1);return false;">Try going back</a></p>
     </div>
   </main>
   {% include footer.html %}

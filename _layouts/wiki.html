@@ -14,12 +14,14 @@
     <div class="fx-col fx-text-center"><a href="/{{ site.baseurl }}/{% if site.active_lang != site.default_lang %}{{ site.active_lang }}/{% endif %}">
         <img alt="{{ site.data.general.nav.altJamulusIcon }}" width="40" height="40" src="{{ 'assets/img/jamulus-icon-2020.svg'| relative_url }}" /></a>
     </div>
-    {% include general/navbtn.html %}
+    <div class="fx-col-center-xs fx-txt-right hide-on-dt">
+      {% include general/navbtn.html %}
+    </div>
   </header>
   <div class="fx-row fx-row-center-xs">
-    <noscript><strong>{{ site.data.general.tNoJSEnabled }}</strong></noscript>
     {% include general/nav.html %}
     <div id="maincontainer" class="fx-col-100-xs fx-col-50-m">
+      <noscript class="red"><strong>{{ site.data.general.tNoJSEnabled }}</strong></noscript>
       <div id="editsitecontent">
         <a href="{{ site.githubrepoeditbase }}/{{ page.path }}">
           <svg aria-labelledby="etitle" width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +31,7 @@
           </svg>
         </a>
       </div>
-      <main>{{ content }}</main>
+      <main lang="{{ page.lang }}">{{ content }}</main>
       <div id="license">{% include wiki/{{ site.active_lang }}/wikilicense.html %}</div>
       <div id="ftext">
         {% capture footertext %}

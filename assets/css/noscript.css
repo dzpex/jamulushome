@@ -1,13 +1,9 @@
-.wikisite #mnv {
+#mnv {
   display: block !important;
 }
 
-.wikisite #navbtn {
+#navbtn {
   display: none;
-}
-
-noscript {
-  color: #c94a55;
 }
 
 #suglang {
