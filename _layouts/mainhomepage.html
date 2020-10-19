@@ -42,15 +42,14 @@
   </header>
   <div>
     <div class="fx-row fx-row-center-xs">
-      <div class="fx-col-100-xs fx-col-50-l">
-        {% include langselect.html %}
+      {% include general/navbtn.html %}
+      <noscript><strong>{{ site.data.general.tNoJSEnabled }}</strong></noscript>
+      {% include general/nav.html %}
+      <div id="maincontainer" class="fx-col-100-xs fx-col-50-m">
+        <main>{{ content }}</main>
       </div>
     </div>
-    <main>
-      {{ content }}
-    </main>
-  </div>
-  {% include footer.html %}
+    {% include footer.html %}
 </body>
 
 </html>

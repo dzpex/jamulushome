@@ -76,10 +76,57 @@ main li {
   padding: 0;
 }
 
-#langselect .selected, #wikinav .selected {
+#langselect .selected, #gnav .selected {
   font-weight: bold;
   text-decoration: underline;
   color: #2b7288;
+}
+
+header #navbtn svg {
+  color: #ffffff;
+}
+
+#gnav nav h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+#gnav a .selected {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #2b7288;
+}
+
+#gnav nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+#gnav nav ul li>a {
+  margin-left: 0.5em;
+}
+
+#gnav nav>ul>li>ul>li>ul>li>a {
+  margin-left: 0.9em;
+}
+
+nav {
+  background-color: #EAF8FD;
+  color: #ffffff;
+  margin: 10px auto 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+
+#navbtn svg {
+  cursor: pointer;
+  margin: 0;
+}
+
+#mnv {
+  display: none;
+}
+
+#mnv ul {
+  list-style-type: none;
 }
 
 #footer {
@@ -109,6 +156,11 @@ main li {
 body>div {
   margin: 1em 0 0 0;
   padding: 0;
+}
+
+main>div {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 #footer img {
@@ -168,6 +220,35 @@ body>div {
   #langselect ul li {
     margin: 0 0.3em 0 0;
   }
+
+  #mnv {
+    display: block !important;
+  }
+
+  .hide-on-dt {
+    display: none;
+  }
+
+  header {
+    margin-bottom: 2em;
+  }
+
+  #gnav {
+    order: 2;
+  }
+
+  nav {
+    position: sticky;
+    top: 2px;
+  }
+
+  #maincontainer {
+    order: 1;
+  }
+
+  #gnav nav ul li {
+    display: block;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -179,6 +260,10 @@ body>div {
     color: #1da3cc;
   }
 
+  header #navbtn svg {
+    color: #dbdbdb;
+  }
+
   #footer {
     background-color: #0a5067;
     color: #dbdbdb;
@@ -188,8 +273,16 @@ body>div {
     color: #dbdbdb;
   }
 
-  #wnv {
+  #mnv {
     background-color: #262a2b;
+  }
+
+  #mnv h2, #mnv a {
+    color: #10b0e2;
+  }
+
+  #mnv ul li a.selected {
+    color: #52bada;
   }
 
   body {

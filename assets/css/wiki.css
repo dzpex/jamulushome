@@ -10,95 +10,12 @@
   font-style: italic;
 }
 
-.wikisite main>div {
-  padding-top: 0;
-  margin-top: 0;
-}
-
-.wikisite #wikinav nav h3 {
-  margin: 0.5em 0 0.5em 0;
-}
-
-.wikisite #wikinav a .selected {
-  font-weight: bold;
-  text-decoration: underline;
-  color: #2b7288;
-}
-
-.wikisite #wikinav nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-.wikisite #wikinav nav ul li>a {
-  margin-left: 0.5em;
-}
-
-.wikisite #wikinav nav>ul>li>ul>li>ul>li>a {
-  margin-left: 0.9em;
-}
-
-.wikisite nav {
-  background-color: #EAF8FD;
-  color: #ffffff;
-  margin: 10px auto 0 auto;
-  padding: 10px 10px 10px 10px;
-}
-
-.wikisite #navbtn svg {
-  cursor: pointer;
-  margin: 0;
-}
-
-.wikisite #wnv {
-  display: none;
-}
-
-.wikisite #wnv ul {
-  list-style-type: none;
-}
-
 .wikisite #editsitecontent svg {
   color: #1181a4;
 }
 
 .wikisite #editsitecontent {
   float: right;
-}
-
-.wikisite #navbtn svg {
-  color: #ffffff;
-}
-
-@media (min-width:940px) {
-  .wikisite #wnv {
-    display: block !important;
-  }
-
-  .wikisite .hide-on-dt {
-    display: none;
-  }
-
-  .wikisite header {
-    margin-bottom: 2em;
-  }
-
-  .wikisite #wikinav {
-    order: 2;
-  }
-
-  .wikisite nav {
-    position: sticky;
-    top: 2px;
-  }
-
-  .wikisite #maincontainer {
-    order: 1;
-  }
-
-  .wikisite #wikinav nav ul li {
-    display: block;
-  }
 }
 
 .wikisite main h1 {
@@ -123,19 +40,7 @@
     border-top-color: #0a5067;
   }
 
-  .wikisite #navbtn svg {
-    color: #dbdbdb;
-  }
-
   .wikisite #editsitecontent svg {
     color: #1b90b5;
-  }
-
-  .wikisite #wnv h2, #wnv a {
-    color: #10b0e2;
-  }
-
-  .wikisite #wnv ul li a.selected {
-    color: #52bada;
   }
 }

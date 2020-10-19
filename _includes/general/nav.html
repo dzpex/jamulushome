@@ -1,9 +1,9 @@
-<aside id="wikinav" class="fx-col-100-xs fx-col-25-m">
+<aside id="gnav" class="fx-col-100-xs fx-col-25-m">
   {% include langselect.html %}
-  <nav id="wnv">
+  <nav id="mnv">
     <ul>
-      {% if site.data.wiki.navigation.nav[0] %}
-      {% for item in site.data.wiki.navigation.nav %}
+      {% if site.data.navigation.nav[0] %}
+      {% for item in site.data.navigation.nav %}
       {% if item.url %}
       <li>
         <h3><a href="{{ item.url | relative_url }}" class="{% if subentry.url == page.url %}selected{% endif %}">{{ item.title }}</a></h3>

@@ -24,6 +24,7 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="color-scheme" content="dark light">
 <link rel="author" href="{{ 'humans.txt' | relative_url }}" />
+<script src="{{ 'assets/js/nav.js' | relative_url }}"></script>
 {% for lng in site.languages %}
     {% if lng == site.default_lang %}
       {% capture langlink %}{{ site.a_rootpage }}/{{ site.baseurl }}{{ page.url }}{% endcapture %}

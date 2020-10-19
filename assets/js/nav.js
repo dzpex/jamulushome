@@ -1,5 +1,5 @@
 function showNav() {
-  var x = document.getElementById("wnv");
+  var x = document.getElementById("mnv");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
