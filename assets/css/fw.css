@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #1181a4;
 }
 
+hr {
+  border-color: #1181a4;
+}
+
 a {
   color: #0e6f8e;
   text-decoration: none;
@@ -300,6 +304,10 @@ main>div {
 
   header {
     color: #dbdbdb;
+  }
+
+  hr {
+    border-color: #dbdbdb;
   }
 
   code {
