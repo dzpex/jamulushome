@@ -14,5 +14,5 @@ You can contribute to this wiki by opening a pull request with with the followin
 
  The source of this wiki can be found on the [Jamulus GitHub Repo branch wiki](https://github.com/corrados/jamulus/tree/wiki).
 
-## Conntribute to the Jamulus source
+## Contribute to the Jamulus source
 If you want to help out with coding, have a look at the [Jamulus GitHub Repo](https://github.com/corrados/jamulus)
