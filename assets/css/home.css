@@ -3,6 +3,10 @@
   color: #ffffff;
 }
 
+.mainsite #firstrow h2 {
+  margin-top: 0;
+}
+
 .mainsite header {
   text-align: center;
 }
