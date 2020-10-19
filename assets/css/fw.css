@@ -122,10 +122,22 @@ header #navbtn {
 }
 
 nav {
-  background-color: #EAF8FD;
   color: #ffffff;
   margin: 10px auto 0 auto;
   padding: 10px 10px 10px 10px;
+}
+
+#navaround, nav {
+  background-color: #eaf8fd;
+}
+
+#navaround {
+  line-height: 0;
+  margin: 0;
+}
+
+#navaround svg {
+  margin: 0.4em;
 }
 
 #navbtn {
@@ -241,7 +253,7 @@ main>div {
     display: none;
   }
 
-  header {
+  header, .mainsite header {
     margin-bottom: 3em;
   }
 
@@ -285,7 +297,7 @@ main>div {
     color: #dbdbdb;
   }
 
-  #mnv {
+  #mnv, #navaround {
     background-color: #262a2b;
   }
 
