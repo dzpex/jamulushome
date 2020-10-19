@@ -1,11 +1,7 @@
-#mnv {
-  display: block !important;
-}
-
 #navbtn {
-  display: none;
+  display: none !important;
 }
 
-#suglang {
+#suglang, #mnv {
   display: block !important;
 }
