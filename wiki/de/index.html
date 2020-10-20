@@ -4,9 +4,11 @@ title: "Übersicht"
 lang: "de"
 permalink: "/wiki/"
 ---
-<h1>Seiten</h1>
+<h1>Übersicht</h1>
 <ul>
-  {% for doc in site.docs %}
-    <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+  {% for page in site.pages %}
+    {% if page.category != "hidden" %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>

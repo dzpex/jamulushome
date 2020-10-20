@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: "Installation for Macintosh"
+title: "Installation auf macOS"
 lang: "de"
 permalink: "/wiki/Installation-for-Macintosh"
 ---
