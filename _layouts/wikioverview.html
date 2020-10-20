@@ -3,14 +3,14 @@ layout: wiki
 ---
 {{ content }}
 <ul>
-  {% if page.lang == site.default_lang %}
+  {% if site.lang == site.default_lang %}
     {% capture langlink %} /{{ site.baseurl }}{% endcapture %}
   {% else %}
     {% capture langlink %}/{{ site.baseurl }}/{{ lng }}{% endcapture %}
   {% endif %}
   {% for page in site.pages %}
     {% if page.category != "hidden" %}
-    <li><a href="{{ langlink }}/{{ page.url }}">{{ page.title }}</a></li>
+    <li><a href="{{ langlink }}{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
