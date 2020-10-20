@@ -7,6 +7,7 @@ permalink: "/wiki/Installation-for-Linux"
 
 
 # Installation for Linux
+Make sure you read the [Getting Started](Getting-Started) page.
 
 **Right now, we don't provide official packages for Jamulus**
 
