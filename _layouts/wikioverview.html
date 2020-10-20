@@ -3,10 +3,10 @@ layout: wiki
 ---
 {{ content }}
 <ul>
-  {% if site.lang == site.default_lang %}
+  {% if site.active_lang == site.default_lang %}
     {% capture langlink %} /{{ site.baseurl }}{% endcapture %}
   {% else %}
-    {% capture langlink %}/{{ site.baseurl }}/{{ site.lang }}{% endcapture %}
+    {% capture langlink %}/{{ site.baseurl }}/{{ site.active_lang }}{% endcapture %}
   {% endif %}
   {% for page in site.pages %}
     {% if page.category != "hidden" %}
