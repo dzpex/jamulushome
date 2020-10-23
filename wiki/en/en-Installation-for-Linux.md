@@ -72,7 +72,7 @@ sudo make install
 Jamulus clients need [Jack](https://jackaudio.org/) to run, but you need to configure that first. The recommended method is to use `QjackCtl`. 
 1. Open the **command shell** e.g. with Crtl-Alt-T and 
 1. execute the command `qjackctl` you will see the **Jack Audio Connection Kit**
-1. Check or adapt the **settings**  in `QjackCtl` - especially select your audio input device in the `qjackctl` settings (see settings below) 
+1. Check or adapt the **settings**  in `QjackCtl` as detailed below 
 1. Start Jack by pressing the **Start-Button** 
 You can `Stop` Jack after Quitting Jamulus)
 
@@ -103,7 +103,7 @@ For detailed information on using Jamulus, please see the [help manual](https://
 
 ## To update your installation to a new release
 
-Download the new sources as per [Get Jamulus](Installation-for-Linux#get-jamulus-sources) and repeat just the [compilation instructions](Installation-for-Linux#compile-this-bad-boy) as if for a new installation above.
+Download the new sources as per [Get Jamulus](/wiki/Installation-for-Linux#get-jamulus-sources) and repeat just the [compilation instructions](Installation-for-Linux#compile-this-bad-boy) as if for a new installation above.
 
 ## Notes for geeks
 
